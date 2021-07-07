@@ -1,0 +1,111 @@
+@import "./base/base";
+@import "./base/mixins";
+@import "./base/variables";
+// HELPER-CLASSES
+.j-c-s {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.j-c-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-f {
+    display: flex;
+}
+
+.bg-secondary-blue {
+    background: #21418e;
+}
+
+// HEAEDER
+.header-top {
+    background-color: $primary-red;
+    color: white;
+    padding: 10px;
+    .hf-calender,
+    .hr-email {
+        margin-left: 20px;
+    }
+}
+
+.header-mid {
+    padding: 10px 310px;
+}
+
+.hm-title {
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+.hm-logo {
+    img {
+        height: 110px;
+        width: 130px;
+    }
+}
+
+.hm-flag {
+    img {
+        height: 100px;
+        width: 100%;
+    }
+}
+
+.header-bot {
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(253, 253, 253);
+        &:hover {
+            color: whitesmoke;
+        }
+    }
+    .navbar {
+        padding: 30px;
+        z-index: 999;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 0.5rem;
+    }
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
+
+// MAIN - BANNER
+.main-banner-single {
+    height: 67vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.mbs-text {
+    width: 100%;
+    background-color: #0000008a;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    padding: 10px 20px;
+    color: white;
+    h4 {
+        color: white;
+        font-weight: bold;
+    }
+    p {
+        margin-top: 10px;
+        font-size: 20px;
+        color: rgb(240, 232, 232);
+    }
+}

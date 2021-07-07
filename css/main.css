@@ -1,0 +1,203 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #ccc;
+}
+
+body textarea {
+  border-color: #ccc;
+}
+
+body textarea:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #ccc;
+  outline: none;
+}
+
+body a {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+body a:focus {
+  outline: none;
+}
+
+body ul {
+  margin: 0;
+  padding: 0;
+}
+
+body ul li {
+  list-style-type: none;
+}
+
+body button:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+body button:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+body input .btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+.j-c-s {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.j-c-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.d-f {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bg-secondary-blue {
+  background: #21418e;
+}
+
+.header-top {
+  background-color: #de1d3c;
+  color: white;
+  padding: 10px;
+}
+
+.header-top .hf-calender,
+.header-top .hr-email {
+  margin-left: 20px;
+}
+
+.header-mid {
+  padding: 10px 310px;
+}
+
+.hm-title img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hm-logo img {
+  height: 110px;
+  width: 130px;
+}
+
+.hm-flag img {
+  height: 100px;
+  width: 100%;
+}
+
+.header-bot .navbar-light .navbar-nav .nav-link {
+  color: #fdfdfd;
+}
+
+.header-bot .navbar-light .navbar-nav .nav-link:hover {
+  color: whitesmoke;
+}
+
+.header-bot .navbar {
+  padding: 30px;
+  z-index: 999;
+}
+
+.header-bot .navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.header-bot .navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+
+.main-banner-single {
+  height: 67vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.mbs-text {
+  width: 100%;
+  background-color: #0000008a;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  padding: 10px 20px;
+  color: white;
+}
+
+.mbs-text h4 {
+  color: white;
+  font-weight: bold;
+}
+
+.mbs-text p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #f0e8e8;
+}
+/*# sourceMappingURL=main.css.map */

@@ -10,6 +10,13 @@ html {
     margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     .form-control {
@@ -75,4 +82,28 @@ body {
 
 *:focus {
     outline: none;
+}
+
+.sec-padding {
+    padding: 20px 0;
+}
+
+.sec-title {
+    color: #21418e;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sec-title-small {
+    margin-bottom: 30px;
+    h5 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.section-padding {
+    margin: 30px 0;
 }

@@ -104,8 +104,129 @@
         font-weight: bold;
     }
     p {
-        margin-top: 10px;
-        font-size: 20px;
-        color: rgb(240, 232, 232);
+        margin-top: 18px;
+        font-size: 15px;
+        color: rgb(206, 206, 206);
+        width: 50%;
+    }
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>a:after {
+    content: ">";
+    float: right;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+#dLabel {
+    color: white;
+}
+
+// ABOUT US
+.ma-content {
+    p {
+        text-align: justify;
+        line-height: 30px;
+    }
+}
+
+.main-message {
+    text-align: center;
+    background: $primary-red;
+    color: white;
+    padding: 20px 20px;
+    .mm-msg {
+        font-size: 12px;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+.cheif-img {
+    margin: 10px 0;
+    img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+    }
+}
+
+.quote-icon {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.473);
+}
+
+.mm-learn-more {
+    background: white;
+    display: inline-block;
+    padding: 5px 10px;
+    a {
+        font-size: 8px;
+        line-height: 16px;
+        color: black;
+    }
+}
+
+.icon-service {
+    background: $secondary-blue;
+    padding: 30px;
+    text-align: center;
+    a {
+        color: white;
+    }
+    i {
+        font-size: 60px;
+    }
+    span {
+        margin-top: 30px;
+        display: block;
+        font-weight: 700;
+    }
+}
+
+// NOTICES - INFO OFFICER - REL
+.mnst-date {
+    i {
+        margin-right: 5px;
+        color: $secondary-blue;
+    }
+    span {
+        color: #818181;
+    }
+}
+
+.mnst-view-down {
+    i {
+        margin-right: 10px;
+        color: #818181;
+    }
+}
+
+.mn-single {
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+
+.mns-bot {
+    margin: 15px 0;
+    h5 {
+        font-size: 16px;
+        line-height: 25px;
     }
 }

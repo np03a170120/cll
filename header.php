@@ -81,17 +81,37 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Gallery</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown link
+
+                        <!-- ON HOVER DROPDOWN -->
+                        <div class="btn-group">
+                            <a id="dLabel" data-toggle="dropdown" class="dropdown-toggle j-c-c" href="">
+                                Dropdown
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                <li><a class="dropdown-item" href="#">level 1</a></li>
+                                <li><a class="dropdown-item" href="#">level 1</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item" tabindex="-1" href="#">
+                                        level 1
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item" href="#">
+                                                level 2
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">level 2</a></li>
+                                        <li><a class="dropdown-item" href="#">level 2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </ul>
                 </div>
             </nav>

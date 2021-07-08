@@ -12,6 +12,13 @@ html {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -78,6 +85,31 @@ body input .btn:focus {
 
 *:focus {
   outline: none;
+}
+
+.sec-padding {
+  padding: 20px 0;
+}
+
+.sec-title {
+  color: #21418e;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sec-title-small {
+  margin-bottom: 30px;
+}
+
+.sec-title-small h5 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section-padding {
+  margin: 30px 0;
 }
 
 .j-c-s {
@@ -196,8 +228,130 @@ body input .btn:focus {
 }
 
 .mbs-text p {
-  margin-top: 10px;
+  margin-top: 18px;
+  font-size: 15px;
+  color: #cecece;
+  width: 50%;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > a:after {
+  content: ">";
+  float: right;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+#dLabel {
+  color: white;
+}
+
+.ma-content p {
+  text-align: justify;
+  line-height: 30px;
+}
+
+.main-message {
+  text-align: center;
+  background: #de1d3c;
+  color: white;
+  padding: 20px 20px;
+}
+
+.main-message .mm-msg {
+  font-size: 12px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.cheif-img {
+  margin: 10px 0;
+}
+
+.cheif-img img {
+  height: 200px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.quote-icon {
+  text-align: center;
   font-size: 20px;
-  color: #f0e8e8;
+  margin: 10px 0;
+  color: rgba(255, 255, 255, 0.473);
+}
+
+.mm-learn-more {
+  background: white;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.mm-learn-more a {
+  font-size: 8px;
+  line-height: 16px;
+  color: black;
+}
+
+.icon-service {
+  background: #21418e;
+  padding: 30px;
+  text-align: center;
+}
+
+.icon-service a {
+  color: white;
+}
+
+.icon-service i {
+  font-size: 60px;
+}
+
+.icon-service span {
+  margin-top: 30px;
+  display: block;
+  font-weight: 700;
+}
+
+.mnst-date i {
+  margin-right: 5px;
+  color: #21418e;
+}
+
+.mnst-date span {
+  color: #818181;
+}
+
+.mnst-view-down i {
+  margin-right: 10px;
+  color: #818181;
+}
+
+.mn-single {
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  margin-top: 15px;
+}
+
+.mns-bot {
+  margin: 15px 0;
+}
+
+.mns-bot h5 {
+  font-size: 16px;
+  line-height: 25px;
 }
 /*# sourceMappingURL=main.css.map */

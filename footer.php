@@ -10,6 +10,10 @@
                         <ul class="oh-content">
                             <li>Summer 9:30 AM - 5:30 AM</li>
                             <li>Winter 9:30 AM - 5:30 AM</li>
+                            <div class="ft-right">
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-twitter-square"></i>
+                            </div>
                         </ul>
                     </div>
                 </div>
@@ -48,10 +52,7 @@
                     <span>© Copyright Central Law Library. All Rights Reserved
                     </span>
                 </div>
-                <div class="ft-right">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-twitter-square"></i>
-                </div>
+
             </div>
         </div>
     </section>

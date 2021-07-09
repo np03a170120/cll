@@ -61,6 +61,9 @@
                         suscipit incidunt similique, in at odio exercitationem omnis optio corrupti sapiente libero
                         accusamus fugit! Adipisci iste tenetur illum.
                     </p>
+                    <div class="view-all text-left">
+                        <a href="#">View all</a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4">

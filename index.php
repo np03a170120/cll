@@ -56,6 +56,10 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur, quia magnam,
                         suscipit incidunt similique, in at odio exercitationem omnis optio corrupti sapiente libero
                         accusamus fugit! Adipisci iste tenetur illum.
+                        ! Adipisci iste tenetur illum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur, quia magnam,
+                        suscipit incidunt similique, in at odio exercitationem omnis optio corrupti sapiente libero
+                        accusamus fugit! Adipisci iste tenetur illum.
                     </p>
                 </div>
             </div>
@@ -142,7 +146,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="main-notice">
-                    <div class="sec-title">
+                    <div class="sec-title section-padding">
                         <h2>NOTICES</h2>
                     </div>
                     <div class="mn-single">
@@ -208,6 +212,73 @@
                             </h5>
                         </div>
                     </div>
+                    <div class="mn-single">
+                        <div class="mns-top j-c-s">
+                            <div class="mnst-date">
+                                <i class="fas fa-calendar-day"></i> <span>21 Jan, 2077</span>
+                            </div>
+                            <div class="mnst-view-down">
+                                <a href="#">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-download"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mns-bot">
+                            <h5>
+                                <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptas
+                                    ipsa molestias
+                                    voluptates distinctio aperiam culpa, incidunt quia eaque delectus dicta.
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="view-all">
+                        <a href="#">View all</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="main-info-officer">
+                    <div class="sec-title-small">
+                        <h5>Information Officer</h5>
+                    </div>
+                    <div class="cheif-img">
+                        <img src="./images/chief.png" alt="">
+                    </div>
+                    <div class="chief-detail">
+                        <div class="chief-name">
+                            <h5>Mr. Naive Shrestha</h5>
+                        </div>
+                        <div class="cd-phone">
+                            <i class="fas fa-phone-square-alt"></i>
+                            <span>9847779841</span>
+                        </div>
+                        <div class="cd-email">
+                            <i class="fas fa-envelope"></i>
+                            <span>chief@company.com</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="main-related-link section-padding">
+                    <div class="sec-title">
+                        <h2>Related Links</h2>
+                    </div>
+                    <ul class="mrl-links">
+                        <li>
+                            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+                                natus.</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+                                natus.</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+                                natus.</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

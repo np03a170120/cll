@@ -354,4 +354,73 @@ body input .btn:focus {
   font-size: 16px;
   line-height: 25px;
 }
+
+.mns-bot h5 a {
+  color: black;
+}
+
+.view-all {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.view-all a {
+  background: #de1d3c;
+  color: white;
+  padding: 10px 20px;
+  font-size: 10px;
+}
+
+.main-info-officer {
+  background: #de1d3c;
+  text-align: center;
+  padding: 20px 30px;
+  color: white;
+}
+
+.chief-detail {
+  margin-top: 15px;
+}
+
+.cd-phone,
+.cd-email {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.767);
+}
+
+.cd-phone i,
+.cd-email i {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.main-related-link {
+  background: whitesmoke;
+  padding: 10px 15px;
+}
+
+.mrl-links li {
+  padding-left: 1.3em;
+  margin-top: 10px;
+}
+
+.mrl-links li::before {
+  color: #007bff;
+  content: "\f0c1";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.3em;
+  /* same as padding-left set on li */
+}
+
+.mrl-links li:last-child {
+  margin-bottom: 20px;
+}
+
+.mrl-links a {
+  font-size: 14px;
+  text-decoration: underline;
+}
 /*# sourceMappingURL=main.css.map */

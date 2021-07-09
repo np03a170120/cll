@@ -284,4 +284,39 @@
         </div>
     </div>
 </section>
+
+<!-- MAIN GALLERY -->
+<section class="main-gallery">
+    <div class="container">
+        <div class="sec-title text-center section-padding">
+            <h2>Gallery</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="mg-single">
+                    <img src="./images/dummy-potrait.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="mg-single">
+                    <img src="./images/dummy-potrait-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="mg-single">
+                    <img src="./images/chief.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="mg-single">
+                    <img src="./images/dummy-potrait-3.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="view-all btn-margin">
+            <a href="#">View all</a>
+        </div>
+    </div>
+</section>
 <?php include 'footer.php' ?>

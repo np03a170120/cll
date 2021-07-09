@@ -295,3 +295,17 @@
         text-decoration: underline;
     }
 }
+
+// GALLERY
+.mg-single {
+    margin: 0 10px;
+    img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.btn-margin {
+    margin: 40px 0;
+}

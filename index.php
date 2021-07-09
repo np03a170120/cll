@@ -34,6 +34,29 @@
 
 </section>
 
+<section class="main-search">
+    <div class="container">
+        <div class="ms-content">
+            <form>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" placeholder="Author">
+                    </div>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" placeholder="Title">
+                    </div>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" placeholder="Publisher">
+                    </div>
+                    <div class="col-lg-3">
+                        <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
 <!-- MAIN-ABOUT US | MSG FROM CHEIF -->
 <section class="main-about sec-padding">
     <div class="container">

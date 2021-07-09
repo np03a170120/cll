@@ -135,6 +135,36 @@
     color: white;
 }
 
+// SEARCH
+.main-search {
+    background: $secondary-blue;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.ms-content {
+    width: 100%;
+    text-align: center;
+    .form-control {
+        border-radius: 0px;
+        text-align: center;
+        font-size: 15px;
+        padding: 8px;
+    }
+    .btn.btn-primary.mb-2 {
+        display: inherit;
+        background: $primary-red;
+        border-radius: 0px;
+        outline: none;
+        border: none;
+        font-size: 19px;
+    }
+}
+
+.no-pad {
+    padding: 0;
+}
+
 // ABOUT US
 .ma-content {
     p {

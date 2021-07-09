@@ -258,6 +258,37 @@ body input .btn:focus {
   color: white;
 }
 
+.main-search {
+  background: #21418e;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.ms-content {
+  width: 100%;
+  text-align: center;
+}
+
+.ms-content .form-control {
+  border-radius: 0px;
+  text-align: center;
+  font-size: 15px;
+  padding: 8px;
+}
+
+.ms-content .btn.btn-primary.mb-2 {
+  display: inherit;
+  background: #de1d3c;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  font-size: 19px;
+}
+
+.no-pad {
+  padding: 0;
+}
+
 .ma-content p {
   text-align: justify;
   line-height: 30px;

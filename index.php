@@ -62,7 +62,7 @@
                         accusamus fugit! Adipisci iste tenetur illum.
                     </p>
                     <div class="view-all text-left">
-                        <a href="#">View all</a>
+                        <a href="#">Read more</a>
                     </div>
                 </div>
             </div>

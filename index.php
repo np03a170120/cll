@@ -49,7 +49,8 @@
                         <input type="text" class="form-control" placeholder="Publisher">
                     </div>
                     <div class="col-lg-3">
-                        <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-search"></i></button>
+                        <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-search">
+                                <span>Search</span></i></button>
                     </div>
                 </div>
             </form>
@@ -99,9 +100,6 @@
                     </div>
                     <div class="chief-name">
                         <h5>Mr. Naive Shrestha</h5>
-                    </div>
-                    <div class="quote-icon">
-                        <i><i class="fas fa-quote-right"></i></i>
                     </div>
                     <div class="mm-msg">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt expedita, ad ex assumenda

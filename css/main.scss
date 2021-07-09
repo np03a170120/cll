@@ -27,6 +27,7 @@
     background-color: $primary-red;
     color: white;
     padding: 10px;
+    font-size: 12px;
     .hf-calender,
     .hr-email {
         margin-left: 20px;
@@ -34,7 +35,7 @@
 }
 
 .header-mid {
-    padding: 10px 310px;
+    padding: 10px 242px;
 }
 
 .hm-title {
@@ -67,7 +68,7 @@
         }
     }
     .navbar {
-        padding: 30px;
+        padding: 25px;
         z-index: 999;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -138,7 +139,7 @@
 // SEARCH
 .main-search {
     background: $secondary-blue;
-    padding: 80px 0px;
+    padding: 60px 0px;
     text-align: center;
 }
 
@@ -151,12 +152,16 @@
         font-size: 15px;
         padding: 8px;
     }
+    i {
+        margin-right: 15px;
+    }
     .btn.btn-primary.mb-2 {
         display: inherit;
         background: $primary-red;
         border-radius: 0px;
         outline: none;
         border: none;
+        width: 100%;
         font-size: 19px;
     }
 }
@@ -182,6 +187,7 @@
         font-size: 12px;
         margin: 10px 0;
         text-align: center;
+        color: whitesmoke;
     }
 }
 
@@ -194,30 +200,28 @@
     }
 }
 
-.quote-icon {
-    text-align: center;
-    font-size: 20px;
-    margin: 10px 0;
-    color: rgba(255, 255, 255, 0.473);
-}
-
 .mm-learn-more {
     background: white;
     display: inline-block;
     padding: 5px 10px;
     a {
-        font-size: 8px;
+        font-size: 10px;
         line-height: 16px;
         color: black;
+        font-weight: 500;
     }
 }
 
 .icon-service {
-    background: $secondary-blue;
+    background: #fdfdfde6;
     padding: 30px;
     text-align: center;
+    box-shadow: 1px 1px 1px 1px #d0d0d0e6;
     a {
-        color: white;
+        color: $secondary-blue;
+        &:hover {
+            color: #de1d3c;
+        }
     }
     i {
         font-size: 60px;
@@ -271,7 +275,7 @@
         background: $primary-red;
         color: white;
         padding: 10px 20px;
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
@@ -321,7 +325,7 @@
         }
     }
     a {
-        font-size: 14px;
+        font-size: 13px;
         text-decoration: underline;
     }
 }
@@ -358,6 +362,33 @@
     }
 }
 
+.oh-content-top {
+    margin-top: 20px;
+    li {
+        padding-left: 1.3em;
+        margin-top: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+        &::before {
+            color: white;
+            content: "\f054";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 800;
+            margin-left: -1.3em;
+            /* same as padding-left set on li */
+            width: 1.3em;
+            /* same as padding-left set on li */
+        }
+        a {
+            margin-left: 5px;
+            color: white;
+        }
+        i {
+            margin-right: 10px;
+        }
+    }
+}
+
 .oh-content {
     margin-top: 20px;
     li {
@@ -380,6 +411,7 @@
 
 .ft-left {
     font-size: 13px;
+    margin-left: 20px;
 }
 
 .ft-right {

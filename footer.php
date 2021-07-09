@@ -22,7 +22,7 @@
                         <div class="footer-title">
                             <h3>Quick Links</h3>
                         </div>
-                        <ul class="oh-content">
+                        <ul class="oh-content-top">
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Contact Us</a></li>
                             <li><a href="#">Notices</a></li>

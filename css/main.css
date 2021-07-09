@@ -97,6 +97,21 @@ body input .btn:focus {
   font-weight: bold;
 }
 
+.sec-title h2 {
+  position: relative;
+  display: inline-block;
+}
+
+.sec-title h2::after {
+  content: "";
+  position: absolute;
+  background: rgba(114, 10, 10, 0.596);
+  height: 2px;
+  bottom: -10%;
+  left: 20%;
+  width: 55%;
+}
+
 .sec-title-small {
   margin-bottom: 30px;
 }
@@ -150,6 +165,7 @@ body input .btn:focus {
   background-color: #de1d3c;
   color: white;
   padding: 10px;
+  font-size: 12px;
 }
 
 .header-top .hf-calender,
@@ -158,7 +174,7 @@ body input .btn:focus {
 }
 
 .header-mid {
-  padding: 10px 310px;
+  padding: 10px 242px;
 }
 
 .hm-title img {
@@ -187,7 +203,7 @@ body input .btn:focus {
 }
 
 .header-bot .navbar {
-  padding: 30px;
+  padding: 25px;
   z-index: 999;
 }
 
@@ -260,7 +276,7 @@ body input .btn:focus {
 
 .main-search {
   background: #21418e;
-  padding: 80px 0px;
+  padding: 60px 0px;
   text-align: center;
 }
 
@@ -276,12 +292,17 @@ body input .btn:focus {
   padding: 8px;
 }
 
+.ms-content i {
+  margin-right: 15px;
+}
+
 .ms-content .btn.btn-primary.mb-2 {
   display: inherit;
   background: #de1d3c;
   border-radius: 0px;
   outline: none;
   border: none;
+  width: 100%;
   font-size: 19px;
 }
 
@@ -305,6 +326,7 @@ body input .btn:focus {
   font-size: 12px;
   margin: 10px 0;
   text-align: center;
+  color: whitesmoke;
 }
 
 .cheif-img {
@@ -318,13 +340,6 @@ body input .btn:focus {
      object-fit: cover;
 }
 
-.quote-icon {
-  text-align: center;
-  font-size: 20px;
-  margin: 10px 0;
-  color: rgba(255, 255, 255, 0.473);
-}
-
 .mm-learn-more {
   background: white;
   display: inline-block;
@@ -332,19 +347,26 @@ body input .btn:focus {
 }
 
 .mm-learn-more a {
-  font-size: 8px;
+  font-size: 10px;
   line-height: 16px;
   color: black;
+  font-weight: 500;
 }
 
 .icon-service {
-  background: #21418e;
+  background: #fdfdfde6;
   padding: 30px;
   text-align: center;
+  -webkit-box-shadow: 1px 1px 1px 1px #d0d0d0e6;
+          box-shadow: 1px 1px 1px 1px #d0d0d0e6;
 }
 
 .icon-service a {
-  color: white;
+  color: #21418e;
+}
+
+.icon-service a:hover {
+  color: #de1d3c;
 }
 
 .icon-service i {
@@ -399,7 +421,7 @@ body input .btn:focus {
   background: #de1d3c;
   color: white;
   padding: 10px 20px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .main-info-officer {
@@ -451,7 +473,7 @@ body input .btn:focus {
 }
 
 .mrl-links a {
-  font-size: 14px;
+  font-size: 13px;
   text-decoration: underline;
 }
 
@@ -485,6 +507,37 @@ body input .btn:focus {
   font-weight: bold;
 }
 
+.oh-content-top {
+  margin-top: 20px;
+}
+
+.oh-content-top li {
+  padding-left: 1.3em;
+  margin-top: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.oh-content-top li::before {
+  color: white;
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.3em;
+  /* same as padding-left set on li */
+}
+
+.oh-content-top li a {
+  margin-left: 5px;
+  color: white;
+}
+
+.oh-content-top li i {
+  margin-right: 10px;
+}
+
 .oh-content {
   margin-top: 20px;
 }
@@ -510,6 +563,7 @@ body input .btn:focus {
 
 .ft-left {
   font-size: 13px;
+  margin-left: 20px;
 }
 
 .ft-right i {

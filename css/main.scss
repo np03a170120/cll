@@ -309,3 +309,52 @@
 .btn-margin {
     margin: 40px 0;
 }
+
+// FOOTER
+.footer-link-pad {
+    padding: 0 40px;
+}
+
+.footer-main {
+    background-color: $secondary-blue;
+    padding: 80px 0;
+    color: white;
+}
+
+.footer-title {
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.oh-content {
+    margin-top: 20px;
+    li {
+        margin-top: 10px;
+        font-size: 15px;
+        a {
+            color: white;
+        }
+        i {
+            margin-right: 10px;
+        }
+    }
+}
+
+.footer-bottom {
+    padding: 5px;
+    color: white;
+    background: $primary-red;
+}
+
+.ft-left {
+    font-size: 13px;
+}
+
+.ft-right {
+    i {
+        font-size: 18px;
+        margin: 0 5px;
+    }
+}

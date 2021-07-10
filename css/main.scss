@@ -496,7 +496,7 @@
 
 .iac-img {
     img {
-        height: 500px;
+        height: 60vh;
         width: 100%;
         object-fit: cover;
     }
@@ -533,6 +533,90 @@
     border: 1px solid rgb(216, 216, 216);
 }
 
-.ia-text {
+// LIBRARY
+.il-table {
+    background: whitesmoke;
+    margin-top: 40px;
+}
+
+.il-table {
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #21418e;
+        background: #21418e;
+        color: white;
+    }
+}
+
+.inner-library {
+    .ms-content .btn.btn-primary.mb-2:hover {
+        color: $primary-red;
+        outline: 1px solid $primary-red;
+        background: none;
+    }
+}
+
+// INNER-MSG
+.im-cheif {
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    span {
+        font-size: 12px;
+        margin-top: 0;
+    }
+}
+
+.im-text {
+    p {
+        text-align: justify;
+        line-height: 30px;
+        p:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.im-img {
+    img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+// CONTACT US FORM
+.ic-form {
+    .form-control {
+        border-radius: 0;
+        margin-top: 20px;
+    }
+    padding: 20px 0;
+    input {
+        margin: 10px 0;
+        border-radius: 0;
+    }
+    .textarea {
+        border-radius: 0;
+    }
+    button {
+        background: $secondary-blue;
+        border: none;
+        outline: none;
+        border-radius: 0;
+    }
+}
+
+.ic-details {
+    padding: 20px;
     margin-top: 20px;
+    font-size: 15px;
+    ul {
+        margin-top: 10px;
+    }
+    li {
+        margin: 5px 0;
+        i {
+            margin-right: 10px;
+        }
+    }
 }

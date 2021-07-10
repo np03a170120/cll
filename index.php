@@ -108,7 +108,7 @@
                             deleniti fuga</p>
                     </div>
                     <div class="mm-learn-more">
-                        <a href="#">Read More</a>
+                        <a href="inner-message.php">Read More</a>
                     </div>
                 </div>
             </div>

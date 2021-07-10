@@ -121,3 +121,15 @@ body {
 .section-padding {
     margin: 30px 0;
 }
+
+.inner-library {
+    .ms-content .btn.btn-primary.mb-2 {
+        display: inherit;
+        background: #de1d3c;
+        border-radius: 0px;
+        outline: none;
+        border: none;
+        width: 100%;
+        font-size: 19px;
+    }
+}

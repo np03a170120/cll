@@ -2,54 +2,26 @@
 <section class="inner-breadcrumb" style="background-image: url(images/breadcrumb-img.webp);">
     <div class="container">
         <div class="sec-title-breadcrumb">
-            <h3>ABOUT US</h3>
+            <h3>Our Team</h3>
         </div>
         <div class="ib-content">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                    <li class="breadcrumb-item active"><a href="#">About Us</a></li>
+                    <li class="breadcrumb-item active"><a href="#">Our Team</a></li>
                 </ol>
             </nav>
         </div>
     </div>
 </section>
 
-<section class="inner-about section-padding">
+<section class="inner-team">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="iac-img">
-                    <img src="./images/dummy-us.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-7">
-                <div class="ia-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, tempora. Perspiciatis quo
-                        voluptatibus eius, blanditiis minima impedit dolorum vero, similique eligendi, inventore totam
-                        libero pariatur nam quaerat ducimus hic ea.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Quo, tempora. Perspiciatis quo
-                        voluptatibus eius, blanditiis minima impedit dolorum vero, similique eligendi, inventore totam
-                        libero pariatur nam quaerat ducimus hic ea.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Quo, tempora. Perspiciatis quo
-                        voluptatibus eius, blanditiis minima impedit dolorum vero, similique eligendi, inventore totam
-                        libero pariatur nam quaerat ducimus hic ea.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tempore neque quaerat, nam
-                        tenetur facere alias esse fuga quidem ad vitae, blanditiis numquam molestias saepe ratione
-                        aspernatur ipsum enim consequuntur.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Nulla tempore neque quaerat, nam tenetur facere alias esse fuga quidem ad vitae, blanditiis
-                        numquam molestias saepe ratione aspernatur ipsum enim consequuntur.Lorem ipsum dolor sit amet,
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- <div class="ia-board-member">
+        <!-- BOARD MEMBERS -->
+        <div class="ia-board-member">
             <div class="sec-title text-center section-padding">
                 <h2>BOARD MEMBERS</h2>
             </div>
-
             <div class="row">
                 <div class="col-lg-3">
                     <div class="ib-single">
@@ -87,7 +59,7 @@
                 <div class="col-lg-3">
                     <div class="ib-single">
                         <div class="ibs-img">
-                            <img src="./images/dummy-potrait-5.jpg" alt="">
+                            <img src="./images/dummy-us.jpg" alt="">
                         </div>
                         <div class="ibs-detail">
                             <h5>Naive Shrestha</h5>
@@ -98,7 +70,7 @@
                 <div class="col-lg-3">
                     <div class="ib-single">
                         <div class="ibs-img">
-                            <img src="./images/dummy-potrait-3.jpg" alt="">
+                            <img src="./images/dummy-us.jpg" alt="">
                         </div>
                         <div class="ibs-detail">
                             <h5>Naive Shrestha</h5>
@@ -109,7 +81,7 @@
                 <div class="col-lg-3">
                     <div class="ib-single">
                         <div class="ibs-img">
-                            <img src="./images/dummy-potrait-3.jpg" alt="">
+                            <img src="./images/dummy-potrait-2.jpg" alt="">
                         </div>
                         <div class="ibs-detail">
                             <h5>Naive Shrestha</h5>
@@ -120,7 +92,7 @@
                 <div class="col-lg-3">
                     <div class="ib-single">
                         <div class="ibs-img">
-                            <img src="./images/dummy-potrait-3.jpg" alt="">
+                            <img src="./images/dummy-potrait-4.jpg" alt="">
                         </div>
                         <div class="ibs-detail">
                             <h5>Naive Shrestha</h5>
@@ -131,7 +103,7 @@
                 <div class="col-lg-3">
                     <div class="ib-single">
                         <div class="ibs-img">
-                            <img src="./images/dummy-potrait-3.jpg" alt="">
+                            <img src="./images/dummy-us.jpg" alt="">
                         </div>
                         <div class="ibs-detail">
                             <h5>Naive Shrestha</h5>
@@ -140,8 +112,60 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
+        <!-- OTHER STAFFS -->
+        <div class="ia-board-member">
+            <div class="sec-title text-center mb-4">
+                <h2>Staffs</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="ib-single">
+                        <div class="ibs-img">
+                            <img src="./images/dummy-us.jpg" alt="">
+                        </div>
+                        <div class="ibs-detail">
+                            <h5>Naive Shrestha</h5>
+                            <h6>Secretary</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="ib-single">
+                        <div class="ibs-img">
+                            <img src="./images/dummy-potrait-2.jpg" alt="">
+                        </div>
+                        <div class="ibs-detail">
+                            <h5>Naive Shrestha</h5>
+                            <h6>Secretary</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="ib-single">
+                        <div class="ibs-img">
+                            <img src="./images/dummy-potrait-4.jpg" alt="">
+                        </div>
+                        <div class="ibs-detail">
+                            <h5>Naive Shrestha</h5>
+                            <h6>Secretary</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="ib-single">
+                        <div class="ibs-img">
+                            <img src="./images/dummy-us.jpg" alt="">
+                        </div>
+                        <div class="ibs-detail">
+                            <h5>Naive Shrestha</h5>
+                            <h6>Secretary</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</section>
 
+</section>
 <?php include 'footer.php' ?>

@@ -129,6 +129,16 @@ body input .btn:focus {
   margin: 30px 0;
 }
 
+.inner-library .ms-content .btn.btn-primary.mb-2 {
+  display: inherit;
+  background: #de1d3c;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 19px;
+}
+
 .j-c-s {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -665,7 +675,7 @@ body input .btn:focus {
 }
 
 .iac-img img {
-  height: 500px;
+  height: 60vh;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -702,7 +712,90 @@ body input .btn:focus {
   border: 1px solid #d8d8d8;
 }
 
-.ia-text {
+.il-table {
+  background: whitesmoke;
+  margin-top: 40px;
+}
+
+.il-table .table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #21418e;
+  background: #21418e;
+  color: white;
+}
+
+.inner-library .ms-content .btn.btn-primary.mb-2:hover {
+  color: #de1d3c;
+  outline: 1px solid #de1d3c;
+  background: none;
+}
+
+.im-cheif {
+  padding: 10px;
+  border: 1px solid #d8d8d8;
+}
+
+.im-cheif span {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.im-text p {
+  text-align: justify;
+  line-height: 30px;
+}
+
+.im-text p p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.im-img img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ic-form {
+  padding: 20px 0;
+}
+
+.ic-form .form-control {
+  border-radius: 0;
   margin-top: 20px;
+}
+
+.ic-form input {
+  margin: 10px 0;
+  border-radius: 0;
+}
+
+.ic-form .textarea {
+  border-radius: 0;
+}
+
+.ic-form button {
+  background: #21418e;
+  border: none;
+  outline: none;
+  border-radius: 0;
+}
+
+.ic-details {
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.ic-details ul {
+  margin-top: 10px;
+}
+
+.ic-details li {
+  margin: 5px 0;
+}
+
+.ic-details li i {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=main.css.map */

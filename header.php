@@ -79,19 +79,19 @@
                             <a class="nav-link" href="about.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Library</a>
+                            <a class="nav-link" href="library.php">Library</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Notice</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Publication</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="gallery.php">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.php">Our Team</a>
                         </li>
 
                         <!-- ON HOVER DROPDOWN -->

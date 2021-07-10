@@ -435,7 +435,8 @@ body input .btn:focus {
 }
 
 .mns-bot h5 a {
-  color: black;
+  color: #3f3f3f;
+  font-weight: normal;
 }
 
 .view-all {
@@ -601,5 +602,107 @@ body input .btn:focus {
 .ft-right i {
   font-size: 18px;
   margin: 10px 5px 10px 0;
+}
+
+.inner-breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+.inner-breadcrumb .sec-title-breadcrumb {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.inner-breadcrumb .sec-title-breadcrumb h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.inner-breadcrumb::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #083478d4;
+  z-index: -1;
+}
+
+.inner-breadcrumb .breadcrumb {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+}
+
+.inner-breadcrumb .breadcrumb a {
+  color: white;
+}
+
+.ia-text p {
+  text-align: justify;
+  line-height: 30px;
+}
+
+.ia-text p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.iac-img img {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ibs-img img {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.ibs-detail {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.ibs-detail h5 {
+  font-size: 16px;
+}
+
+.ibs-detail h6 {
+  color: grey;
+  font-size: 12px;
+}
+
+.ia-board-member {
+  padding: 20px 0px;
+}
+
+.ib-single {
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #d8d8d8;
+}
+
+.ia-text {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */

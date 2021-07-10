@@ -39,16 +39,16 @@
         <div class="ms-content">
             <form>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3">
                         <input type="text" class="form-control" placeholder="Author">
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3">
                         <input type="text" class="form-control" placeholder="Title">
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3">
                         <input type="text" class="form-control" placeholder="Publisher">
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3">
                         <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-search">
                                 <span>Search</span></i></button>
                     </div>
@@ -62,7 +62,7 @@
 <section class="main-about sec-padding">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-8">
                 <div class="sec-title">
                     <h2>ABOUT US</h2>
                 </div>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
                 <div class="main-message">
                     <div class="sec-title-small">
                         <h5>Message from the chief librarian</h5>
@@ -123,7 +123,7 @@
             <h2>Our Services</h2>
         </div>
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ms-single">
                     <div class="icon-service">
                         <a href="#"><i class="fas fa-book"></i>
@@ -132,7 +132,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ms-single">
                     <div class="icon-service">
                         <a href="#"><i class="fas fa-desktop"></i>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ms-single">
                     <div class="icon-service">
                         <a href="#"><i class="fas fa-bookmark"></i>
@@ -150,7 +150,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
                 <div class="ms-single">
                     <div class="icon-service">
                         <a href="#"><i class="fas fa-file"></i>

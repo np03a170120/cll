@@ -2,7 +2,7 @@
     <section class="footer-main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 footer-link-pad">
+                <div class="col-lg-4 col-md-4 footer-link-pad">
                     <div class="opening-hours">
                         <div class="footer-title">
                             <h3>Opening Hours</h3>
@@ -17,7 +17,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 footer-link-pad">
+                <div class="col-lg-4 col-md-4 footer-link-pad">
                     <div class="quick-links">
                         <div class="footer-title">
                             <h3>Quick Links</h3>
@@ -30,7 +30,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 footer-link-pad">
+                <div class="col-lg-4 col-md-4 footer-link-pad">
                     <div class="quick-links">
                         <div class="footer-title">
                             <h3>Contact Us</h3>

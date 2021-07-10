@@ -26,7 +26,7 @@
 .header-top {
     background-color: $primary-red;
     color: white;
-    padding: 10px;
+    padding: 11px 245px;
     font-size: 12px;
     .hf-calender,
     .hr-email {
@@ -54,17 +54,19 @@
 }
 
 .hm-flag {
+    text-align: right;
     img {
-        height: 100px;
-        width: 100%;
+        height: auto;
+        width: 29%;
     }
 }
 
 .header-bot {
     .navbar-light .navbar-nav .nav-link {
         color: rgb(253, 253, 253);
+        text-align: center;
         &:hover {
-            color: whitesmoke;
+            color: rgb(187, 187, 187);
         }
     }
     .navbar {
@@ -134,12 +136,16 @@
 
 #dLabel {
     color: white;
+    padding: 5px;
+    &:hover {
+        color: rgb(187, 187, 187);
+    }
 }
 
 // SEARCH
 .main-search {
     background: $secondary-blue;
-    padding: 60px 0px;
+    padding: 45px 0px;
     text-align: center;
 }
 
@@ -163,6 +169,11 @@
         border: none;
         width: 100%;
         font-size: 19px;
+        &:hover {
+            color: rgb(255, 255, 255);
+            outline: 1px solid white;
+            background: none;
+        }
     }
 }
 
@@ -209,6 +220,9 @@
         line-height: 16px;
         color: black;
         font-weight: 500;
+        &:hover {
+            color: $primary-red;
+        }
     }
 }
 
@@ -252,15 +266,19 @@
 }
 
 .mn-single {
-    padding: 10px 20px;
+    padding: 10px 20px 0px 20px;
     background-color: whitesmoke;
     margin-top: 15px;
 }
 
+.mnst-date {
+    font-size: 12px;
+}
+
 .mns-bot {
-    margin: 15px 0;
+    margin: 5px 0;
     h5 {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 25px;
         a {
             color: black;
@@ -276,6 +294,11 @@
         color: white;
         padding: 10px 20px;
         font-size: 12px;
+        &:hover {
+            background: none;
+            outline: 1px solid $primary-red;
+            color: $primary-red;
+        }
     }
 }
 

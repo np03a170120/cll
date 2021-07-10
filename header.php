@@ -40,15 +40,24 @@
                 </div>
             </div>
         </div>
-        <div class="header-mid j-c-s">
-            <div class="hm-logo">
-                <img src="./images/coat-of-arms.png" alt="">
-            </div>
-            <div class="hm-title">
-                <img src="./images/logo.png" alt="">
-            </div>
-            <div class="hm-flag">
-                <img src="./images/flag.gif" alt="">
+        <div class="header-mid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="hm-logo">
+                        <img src="./images/coat-of-arms.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 j-c-c">
+                    <div class="hm-title">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="hm-flag">
+                        <img src="./images/flag.gif" alt="">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="header-bot">

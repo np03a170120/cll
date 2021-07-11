@@ -21,6 +21,11 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="ic-form">
+                        <div class="icf-text">
+                            <!-- <h5>Let us know about you</h5>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga, voluptatumLorem
+                                ipsum dolor</span> -->
+                        </div>
                         <form>
                             <div class="form-group">
                                 <div class="row">
@@ -54,16 +59,18 @@
 
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 border-div">
                     <div class="ic-details">
                         <div class="ic-title">
-                            <h5>Central Law Library</h5>
+                            <h5>Further Contact Details</h5>
+                            <h6>Central Law Library</h6>
+                            <span>Kathmandu,Nepal</span>
                         </div>
                         <ul>
-                            <li><i class="fas fa-map-marker-alt"></i>Koteshwor, Kathmandu</li>
-                            <li><i class="fas fa-phone-square-alt"></i>01-4486712</li>
-                            <li><i class="fas fa-envelope"></i>company@email.com</li>
-                            <li><i class="fas fa-globe-asia"></i>www.links.com</li>
+                            <li><a href="#"><i class="fas fa-map-marker-alt"></i>Koteshwor, Kathmandu</a></li>
+                            <li><a href="#"> <i class="fas fa-phone-square-alt"></i>01-4486712</a></li>
+                            <li><a href="#"><i class="fas fa-envelope"></i>company@email.com</a></li>
+                            <li><a href="#"><i class="fas fa-globe-asia"></i>www.links.com</a></li>
                         </ul>
                     </div>
                 </div>

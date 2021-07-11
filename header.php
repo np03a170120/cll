@@ -73,7 +73,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav navbar-center">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#"><i class="fas fa-home"></i> <span
+                            <a class="nav-link" href="index.php"><i class="fas fa-home"></i> <span
                                     class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">

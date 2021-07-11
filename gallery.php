@@ -27,15 +27,10 @@
                                 </a>
                                 <img src="./images/dummy-potrait-2.jpg" alt="">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="ib-single">
-                            <div class="ibs-img">
-                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                                    <i class="fas fa-search-plus"></i>
-                                </a>
-                                <img src="./images/dummy-potrait-2.jpg" alt="">
+                            <div class="ibs-caption">
+                                <i class="fas fa-info-circle"></i>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -47,15 +42,10 @@
                                 </a>
                                 <img src="./images/dummy-potrait-2.jpg" alt="">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="ib-single">
-                            <div class="ibs-img">
-                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                                    <i class="fas fa-search-plus"></i>
-                                </a>
-                                <img src="./images/dummy-potrait-2.jpg" alt="">
+                            <div class="ibs-caption">
+                                <i class="fas fa-info-circle"></i>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic numquam delectus rem
+                                    esse non earum omnis,.</p>
                             </div>
                         </div>
                     </div>
@@ -67,15 +57,10 @@
                                 </a>
                                 <img src="./images/dummy-potrait-2.jpg" alt="">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="ib-single">
-                            <div class="ibs-img">
-                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                                    <i class="fas fa-search-plus"></i>
-                                </a>
-                                <img src="./images/dummy-potrait-2.jpg" alt="">
+                            <div class="ibs-caption">
+                                <i class="fas fa-info-circle"></i>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -86,6 +71,56 @@
                                     <i class="fas fa-search-plus"></i>
                                 </a>
                                 <img src="./images/dummy-potrait-2.jpg" alt="">
+                            </div>
+                            <div class="ibs-caption">
+                                <i class="fas fa-info-circle"></i>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic numquam delectus rem
+                                    esse non earum omnis,.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="ib-single">
+                            <div class="ibs-img">
+                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                                <img src="./images/dummy-potrait-2.jpg" alt="">
+                            </div>
+                            <div class="ibs-caption">
+                                <i class="fas fa-info-circle"></i>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic numquam delectus rem
+                                    esse non earum omnis,.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="ib-single">
+                            <div class="ibs-img">
+                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                                <img src="./images/dummy-potrait-2.jpg" alt="">
+                            </div>
+                            <div class="ibs-caption">
+                                <i class="fas fa-info-circle"></i>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="ib-single">
+                            <div class="ibs-img">
+                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                                <img src="./images/dummy-potrait-2.jpg" alt="">
+                            </div>
+                            <div class="ibs-caption">
+                                <i class="fas fa-info-circle"></i>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
+                                </p>
                             </div>
                         </div>
                     </div>

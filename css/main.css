@@ -287,6 +287,20 @@ body input .btn:focus {
   display: block;
 }
 
+.dropdown-menu {
+  background-color: #21418e;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 0;
+}
+
+.dropdown-item {
+  color: white;
+}
+
 #dLabel {
   color: white;
   padding: 5px;
@@ -433,18 +447,15 @@ body input .btn:focus {
 
 .mnst-date {
   font-size: 12px;
+  padding-bottom: 2px;
 }
 
-.mns-bot {
-  margin: 5px 0;
+.ms-title h5 {
+  font-size: 14px;
+  line-height: 22px;
 }
 
-.mns-bot h5 {
-  font-size: 15px;
-  line-height: 25px;
-}
-
-.mns-bot h5 a {
+.ms-title h5 a {
   color: #3f3f3f;
   font-weight: normal;
 }
@@ -518,6 +529,22 @@ body input .btn:focus {
 .mrl-links a {
   font-size: 13px;
   text-decoration: underline;
+}
+
+.ibs-caption {
+  padding: 5px 0;
+}
+
+.ibs-caption i {
+  font-size: 11px;
+  color: #686868;
+  text-align: center;
+}
+
+.ibs-caption p {
+  text-align: justify;
+  font-size: 11px;
+  color: #686868;
 }
 
 .mg-single {
@@ -751,6 +778,9 @@ body input .btn:focus {
   padding: 10px;
   margin-bottom: 30px;
   border: 1px solid #d8d8d8;
+  min-height: 350px;
+  max-height: 350px;
+  overflow: hidden;
 }
 
 .il-table {
@@ -823,7 +853,8 @@ body input .btn:focus {
 }
 
 .ic-details {
-  padding: 20px;
+  border: 1px solid #c9c9c9;
+  padding: 50px;
   margin-top: 20px;
   font-size: 15px;
 }
@@ -838,5 +869,40 @@ body input .btn:focus {
 
 .ic-details li i {
   margin-right: 10px;
+}
+
+.ic-details li a {
+  color: #585858;
+}
+
+.ic-details li a:hover {
+  color: #21418e;
+}
+
+.ic-title {
+  margin-bottom: 30px;
+}
+
+.ic-title h5 {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.ic-title h5::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: -15px;
+  background: #d1d1d1;
+  width: 50%;
+  left: 0;
+}
+
+.icf-text h5 {
+  font-size: 18px;
+}
+
+.icf-text span {
+  font-size: 13px;
 }
 /*# sourceMappingURL=main.css.map */

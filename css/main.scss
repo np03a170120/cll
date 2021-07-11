@@ -208,7 +208,7 @@
     color: white;
     padding: 20px 20px;
     .mm-msg {
-        font-size: 12px;
+        font-size: 10px;
         margin: 10px 0;
         text-align: center;
         color: whitesmoke;
@@ -341,6 +341,11 @@
 .main-related-link {
     background: whitesmoke;
     padding: 10px 15px;
+    .sec-title {
+        h2 {
+            font-size: 20px;
+        }
+    }
 }
 
 .mrl-links {
@@ -348,6 +353,7 @@
         padding-left: 1.3em;
         margin-top: 10px;
         &::before {
+            font-size: 12px;
             color: #007bff;
             content: "\f0c1";
             font-family: "Font Awesome 5 Free";
@@ -362,7 +368,7 @@
         }
     }
     a {
-        font-size: 13px;
+        font-size: 12px;
         text-decoration: underline;
     }
 }
@@ -674,9 +680,9 @@
 
 .ic-details {
     border: 1px solid rgb(201, 201, 201);
-    padding: 50px;
     margin-top: 20px;
     font-size: 15px;
+    padding: 30px 50px;
     ul {
         margin-top: 10px;
     }
@@ -684,6 +690,7 @@
         margin: 5px 0;
         i {
             margin-right: 10px;
+            color: $secondary-blue;
         }
         a {
             color: rgb(88, 88, 88);
@@ -695,7 +702,7 @@
 }
 
 .ic-title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     h5 {
         position: relative;
         margin-bottom: 40px;
@@ -709,13 +716,26 @@
             left: 0;
         }
     }
+    span {
+        font-size: 13px;
+    }
 }
 
 .icf-text {
     h5 {
         font-size: 18px;
+        margin-bottom: 10px;
+        font-weight: normal;
+        color: $secondary-blue;
     }
     span {
         font-size: 13px;
+    }
+}
+
+// INNER-NOTICE
+.inner-notice {
+    .mn-single:first-child {
+        margin-top: 0;
     }
 }

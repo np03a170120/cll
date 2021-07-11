@@ -83,7 +83,7 @@
                             <a class="nav-link" href="library.php">Library</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Notice</a>
+                            <a class="nav-link" href="notice.php">Notice</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact</a>

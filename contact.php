@@ -19,12 +19,21 @@
     <div class="container">
         <div class="in-content">
             <div class="row">
+                <div class="col-lg-12">
+                    <div class="ic-map mt-1">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14129.122445470022!2d85.3154979!3d27.708621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x785cb98a99071614!2sCentral%20Law%20Library!5e0!3m2!1sen!2snp!4v1625939168612!5m2!1sen!2snp"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
                 <div class="col-lg-6">
                     <div class="ic-form">
                         <div class="icf-text">
-                            <!-- <h5>Let us know about you</h5>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fuga, voluptatumLorem
-                                ipsum dolor</span> -->
+                            <h5>Suggestion & Feedback Form</h5>
+                            <!-- <span>You can give us your suggestions & feedbacks as per below address by post, by phone,
+                                or can send us using attached online form.
+
+                                Suggestions & feedbacks must be in English or unicode Nepali language.</span> -->
                         </div>
                         <form>
                             <div class="form-group">
@@ -63,8 +72,9 @@
                     <div class="ic-details">
                         <div class="ic-title">
                             <h5>Further Contact Details</h5>
-                            <h6>Central Law Library</h6>
-                            <span>Kathmandu,Nepal</span>
+                            <span>You can give us your suggestions & feedbacks as per below address by post, by phone,
+                                or can send us using attached online form.
+                                Suggestions & feedbacks must be in English or unicode Nepali language.</span>
                         </div>
                         <ul>
                             <li><a href="#"><i class="fas fa-map-marker-alt"></i>Koteshwor, Kathmandu</a></li>
@@ -74,13 +84,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-12">
-                    <div class="ic-map sec-padding">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14129.122445470022!2d85.3154979!3d27.708621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x785cb98a99071614!2sCentral%20Law%20Library!5e0!3m2!1sen!2snp!4v1625939168612!5m2!1sen!2snp"
-                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

@@ -119,7 +119,7 @@
 <!-- OUR SERVICES -->
 <section class="main-services">
     <div class="container">
-        <div class="sec-title section-padding">
+        <div class="sec-title text-center section-padding">
             <h2>Our Services</h2>
         </div>
         <div class="row">
@@ -306,7 +306,7 @@
                         </div>
                     </div> -->
                     <div class="view-all">
-                        <a href="#">View all</a>
+                        <a href="notice.php">View all</a>
                     </div>
                 </div>
             </div>
@@ -334,7 +334,7 @@
 
                 </div>
                 <div class="main-related-link section-padding">
-                    <div class="sec-title">
+                    <div class="sec-title text-center">
                         <h2>Related Links</h2>
                     </div>
                     <ul class="mrl-links">

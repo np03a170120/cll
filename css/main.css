@@ -365,7 +365,7 @@ body input .btn:focus {
 }
 
 .main-message .mm-msg {
-  font-size: 12px;
+  font-size: 10px;
   margin: 10px 0;
   text-align: center;
   color: whitesmoke;
@@ -506,12 +506,17 @@ body input .btn:focus {
   padding: 10px 15px;
 }
 
+.main-related-link .sec-title h2 {
+  font-size: 20px;
+}
+
 .mrl-links li {
   padding-left: 1.3em;
   margin-top: 10px;
 }
 
 .mrl-links li::before {
+  font-size: 12px;
   color: #007bff;
   content: "\f0c1";
   font-family: "Font Awesome 5 Free";
@@ -527,7 +532,7 @@ body input .btn:focus {
 }
 
 .mrl-links a {
-  font-size: 13px;
+  font-size: 12px;
   text-decoration: underline;
 }
 
@@ -854,9 +859,9 @@ body input .btn:focus {
 
 .ic-details {
   border: 1px solid #c9c9c9;
-  padding: 50px;
   margin-top: 20px;
   font-size: 15px;
+  padding: 30px 50px;
 }
 
 .ic-details ul {
@@ -869,6 +874,7 @@ body input .btn:focus {
 
 .ic-details li i {
   margin-right: 10px;
+  color: #21418e;
 }
 
 .ic-details li a {
@@ -880,7 +886,7 @@ body input .btn:focus {
 }
 
 .ic-title {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .ic-title h5 {
@@ -898,11 +904,22 @@ body input .btn:focus {
   left: 0;
 }
 
+.ic-title span {
+  font-size: 13px;
+}
+
 .icf-text h5 {
   font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #21418e;
 }
 
 .icf-text span {
   font-size: 13px;
+}
+
+.inner-notice .mn-single:first-child {
+  margin-top: 0;
 }
 /*# sourceMappingURL=main.css.map */

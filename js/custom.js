@@ -24,3 +24,17 @@ $(".btn-group, .dropdown").hover(
 function LinkFormatter(value, row, index) {
     return "<a href='" + row.url + "'>" + value + "</a>";
 }
+
+$(document).ready(function() {
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none",
+        helpers: {
+            overlay: {
+                css: {
+                    background: "rgba(58, 42, 45, 0.95)",
+                },
+            },
+        },
+    });
+});

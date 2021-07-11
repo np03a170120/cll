@@ -62,6 +62,9 @@
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-buttons.js"></script>
 <script src="./js/custom.js"> </script>
 
 </html>

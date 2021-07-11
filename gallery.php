@@ -22,13 +22,9 @@
                     <div class="col-lg-3">
                         <div class="ib-single">
                             <div class="ibs-img">
-                                <img src="./images/dummy-us.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="ib-single">
-                            <div class="ibs-img">
+                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
                                 <img src="./images/dummy-potrait-2.jpg" alt="">
                             </div>
                         </div>
@@ -36,63 +32,60 @@
                     <div class="col-lg-3">
                         <div class="ib-single">
                             <div class="ibs-img">
-                                <img src="./images/dummy-potrait-4.jpg" alt="">
+                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                                <img src="./images/dummy-potrait-2.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="ib-single">
                             <div class="ibs-img">
-                                <img src="./images/dummy-potrait-5.jpg" alt="">
+                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                                <img src="./images/dummy-potrait-2.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="ib-single">
                             <div class="ibs-img">
-                                <img src="./images/dummy-potrait-3.jpg" alt="">
+                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                                <img src="./images/dummy-potrait-2.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="ib-single">
                             <div class="ibs-img">
-                                <img src="./images/dummy-potrait-3.jpg" alt="">
+                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                                <img src="./images/dummy-potrait-2.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="ib-single">
                             <div class="ibs-img">
-                                <img src="./images/dummy-potrait-3.jpg" alt="">
+                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                                <img src="./images/dummy-potrait-2.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="ib-single">
                             <div class="ibs-img">
-                                <img src="./images/dummy-potrait-3.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="ib-single">
-                            <div class="ibs-img">
-                                <img src="./images/dummy-potrait-3.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="ib-single">
-                            <div class="ibs-img">
-                                <img src="./images/dummy-potrait-3.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="ib-single">
-                            <div class="ibs-img">
-                                <img src="./images/dummy-potrait-3.jpg" alt="">
+                                <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                                <img src="./images/dummy-potrait-2.jpg" alt="">
                             </div>
                         </div>
                     </div>

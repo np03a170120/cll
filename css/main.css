@@ -531,6 +531,47 @@ body input .btn:focus {
      object-fit: cover;
 }
 
+.ibs-img {
+  position: relative;
+}
+
+.ibs-img::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.247);
+  position: absolute;
+  visibility: hidden;
+}
+
+.ibs-img:hover::before {
+  visibility: visible;
+  z-index: 3;
+}
+
+.ibs-img:hover i {
+  visibility: visible;
+  z-index: 999;
+}
+
+.ibs-img i {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  color: white;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  transform: translateX(-50%);
+  visibility: hidden;
+  font-size: 25px;
+}
+
+.fancybox-overlay.fancybox-overlay-fixed {
+  background: rgba(82, 82, 82, 0.219) !important;
+}
+
 .btn-margin {
   margin: 40px 0;
 }

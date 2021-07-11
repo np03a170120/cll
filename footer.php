@@ -10,10 +10,7 @@
                         <ul class="oh-content">
                             <li>Summer 9:30 AM - 5:30 AM</li>
                             <li>Winter 9:30 AM - 5:30 AM</li>
-                            <div class="ft-right">
-                                <i class="fab fa-facebook-square"></i>
-                                <i class="fab fa-twitter-square"></i>
-                            </div>
+
                         </ul>
                     </div>
                 </div>
@@ -40,6 +37,14 @@
                             <li><a href="#"><i class="fas fa-phone-square-alt"></i>01-4486712</a></li>
                             <li><a href="#"><i class="fas fa-envelope"></i>company@email.com</a></li>
                         </ul>
+                        <div class="ft-right">
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

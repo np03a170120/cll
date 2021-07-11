@@ -685,6 +685,7 @@ body input .btn:focus {
 .ft-right i {
   font-size: 18px;
   margin: 10px 5px 10px 0;
+  color: white;
 }
 
 .inner-breadcrumb {

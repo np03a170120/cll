@@ -19,9 +19,6 @@
     <div class="container">
         <!-- BOARD MEMBERS -->
         <div class="ia-board-member">
-            <div class="sec-title text-center section-padding">
-                <h2>BOARD MEMBERS</h2>
-            </div>
             <div class="row">
                 <div class="col-lg-3">
                     <div class="ib-single">
@@ -114,57 +111,7 @@
             </div>
         </div>
         <!-- OTHER STAFFS -->
-        <div class="ia-board-member">
-            <div class="sec-title text-center mb-4">
-                <h2>Staffs</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="ib-single">
-                        <div class="ibs-img">
-                            <img src="./images/dummy-us.jpg" alt="">
-                        </div>
-                        <div class="ibs-detail">
-                            <h5>Naive Shrestha</h5>
-                            <h6>Secretary</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="ib-single">
-                        <div class="ibs-img">
-                            <img src="./images/dummy-potrait-2.jpg" alt="">
-                        </div>
-                        <div class="ibs-detail">
-                            <h5>Naive Shrestha</h5>
-                            <h6>Secretary</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="ib-single">
-                        <div class="ibs-img">
-                            <img src="./images/dummy-potrait-4.jpg" alt="">
-                        </div>
-                        <div class="ibs-detail">
-                            <h5>Naive Shrestha</h5>
-                            <h6>Secretary</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="ib-single">
-                        <div class="ibs-img">
-                            <img src="./images/dummy-us.jpg" alt="">
-                        </div>
-                        <div class="ibs-detail">
-                            <h5>Naive Shrestha</h5>
-                            <h6>Secretary</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 
 </section>

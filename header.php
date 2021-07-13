@@ -9,12 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/jquery.fancybox.css" media="screen">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css" media="screen">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -22,44 +20,51 @@
 <body>
 
     <header>
-        <div class="header-top j-c-s ">
-            <div class="header-left d-f">
-                <div class="hf-clock">
-                    <i class="fas fa-clock"></i>
-                    <span>12:00 PM</span>
-                </div>
-                <div class="hf-calender">
-                    <i class="fas fa-calendar-week"></i>
-                    <span>30 Bhadra 2077, Sunday</span>
-                </div>
-            </div>
-            <div class="header-right d-f">
-                <div class="hr-phone">
-                    <i class="fas fa-phone-square-alt"></i>
-                    <span>01-4486712</span>
-                </div>
-                <div class="hr-email">
-                    <i class="fas fa-envelope"></i>
-                    <span>company@email.com</span>
+
+        <div class="header-top-main">
+            <div class="container">
+                <div class="header-top j-c-s ">
+                    <div class="header-left d-f">
+                        <div class="hf-clock">
+                            <i class="fas fa-clock"></i>
+                            <span>12:00 PM</span>
+                        </div>
+                        <div class="hf-calender">
+                            <i class="fas fa-calendar-week"></i>
+                            <span>30 Bhadra 2077, Sunday</span>
+                        </div>
+                    </div>
+                    <div class="header-right d-f">
+                        <div class="hr-phone">
+                            <i class="fas fa-phone-square-alt"></i>
+                            <!--<i class="fas fa-phone-alt"></i>-->
+                            <span>01-4486712</span>
+                        </div>
+                        <div class="hr-email">
+                            <i class="fas fa-envelope"></i>
+                            <span>company@email.com</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="header-mid">
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="hm-logo">
-                        <img src="./images/coat-of-arms.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 d-f-a">
+                        <div class="hm-logo ">
+                            <img src="./images/coat-of-arms.png" alt="">
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 j-c-c">
-                    <div class="hm-title">
-                        <img src="./images/logo.png" alt="">
+                    <div class="col-lg-4 j-c-c">
+                        <div class="hm-title">
+                            <img src="./images/logo.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="hm-flag">
-                        <img src="./images/flag.gif" alt="">
+                    <div class="col-lg-4">
+                        <div class="hm-flag">
+                            <img src="./images/flag.gif" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -76,9 +81,20 @@
                             <a class="nav-link" href="index.php"><i class="fas fa-home"></i> <span
                                     class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
-                        </li>
+                        <div class="btn-group">
+                            <a id="dLabel" data-toggle="dropdown" class="dropdown-toggle  j-c-c" href="">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                <li><a class="dropdown-item" href="about.php">Introduction</a></li>
+                                <li><a class="dropdown-item " href="# ">Organization Structure</a></li>
+                                <li><a class="dropdown-item" href="inner-message.php">Message from Chief Librarian</a>
+                                </li>
+                                <li><a class="dropdown-item" href="team.php">CLL Developement Committee</a></li>
+                                <li><a class="dropdown-item" href="former-chief-librarian.php">Former Chief
+                                        Librarian</a></li>
+                            </ul>
+                        </div>
                         <li class="nav-item">
                             <a class="nav-link" href="library.php">Library</a>
                         </li>
@@ -86,45 +102,65 @@
                             <a class="nav-link" href="notice.php">Notice</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.php">Contact</a>
+                            <a class="nav-link" href="online-resources.php">Online Resources</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="gallery.php">Gallery</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="team.php">Our Team</a>
-                        </li>
 
+                        <!--<div class="btn-group">-->
+                        <!--    <a id="dLabel" data-toggle="dropdown" class="dropdown-toggle j-c-c" href="">-->
+                        <!--        Online Resources-->
+                        <!--    </a>-->
+                        <!--    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">-->
+                        <!--        <li><a class="dropdown-item" href="https://www.nepjol.info/" target="_blank">Nepal Journals Online</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="https://www.lawcommission.gov.np/np/" target="_blank">Nepal Law Commission</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="http://njanepal.org.np/" target="_blank">Nepal Judicial Academy</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="http://www.digitalhimalaya.com/" target="_blank">Digital Himalaya</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="https://ajouronline.com/" target="_blank">Asian Online Journal</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="https://www.americanbar.org/" target="_blank">American Bar Association</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="https://www.yalelawjournal.org/" target="_blank">The Yale Law Journal</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="http://www.aulawreview.org/" target="_blank">American University Law Review</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="https://www.mdpi.com/" target="_blank"> Multidisciplinary Digital Publishing Institute (MDPI)</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="https://harvardlawreview.org/" target="_blank">Harvard Law Review</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="https://harvardilj.org/" target="_blank">Harvard International Law Journal</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="https://www.acslaw.org/" target="_blank">American Constitution Society for Law and Policy</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="https://www.advocatekhoj.com/" target="_blank">Advocate Khoj</a></li>-->
+                        <!--    </ul>-->
+                        <!--</div>-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.php">Contact Us</a>
+                        </li>
                         <!-- ON HOVER DROPDOWN -->
-                        <div class="btn-group">
-                            <a id="dLabel" data-toggle="dropdown" class="dropdown-toggle j-c-c" href="">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                <li><a class="dropdown-item" href="#">level 1</a></li>
-                                <li><a class="dropdown-item" href="#">level 1</a></li>
-                                <li class="dropdown-divider"></li>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item" tabindex="-1" href="#">
-                                        level 1
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
-                                        <li class="dropdown-submenu">
-                                            <a class="dropdown-item" href="#">
-                                                level 2
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">level 2</a></li>
-                                        <li><a class="dropdown-item" href="#">level 2</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
+                        <!--<div class="btn-group">-->
+                        <!--    <a id="dLabel" data-toggle="dropdown" class="dropdown-toggle j-c-c" href="">-->
+                        <!--        Dropdown-->
+                        <!--    </a>-->
+                        <!--    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">-->
+                        <!--        <li><a class="dropdown-item" href="#">level 1</a></li>-->
+                        <!--        <li><a class="dropdown-item" href="#">level 1</a></li>-->
+                        <!--        <li class="dropdown-divider"></li>-->
+                        <!--        <li class="dropdown-submenu">-->
+                        <!--            <a class="dropdown-item" tabindex="-1" href="#">-->
+                        <!--                level 1-->
+                        <!--            </a>-->
+                        <!--            <ul class="dropdown-menu">-->
+                        <!--                <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>-->
+                        <!--                <li class="dropdown-submenu">-->
+                        <!--                    <a class="dropdown-item" href="#">-->
+                        <!--                        level 2-->
+                        <!--                    </a>-->
+                        <!--                    <ul class="dropdown-menu">-->
+                        <!--                        <li><a class="dropdown-item" href="#">3rd level</a></li>-->
+                        <!--                        <li><a class="dropdown-item" href="#">3rd level</a></li>-->
+                        <!--                    </ul>-->
+                        <!--                </li>-->
+                        <!--                <li><a class="dropdown-item" href="#">level 2</a></li>-->
+                        <!--                <li><a class="dropdown-item" href="#">level 2</a></li>-->
+                        <!--            </ul>-->
+                        <!--        </li>-->
+                        <!--    </ul>-->
+                        <!--</div>-->
                     </ul>
                 </div>
             </nav>

@@ -16,231 +16,171 @@
 </section>
 <section class="inner-notice section-padding">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="main-notice">
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
+        <div class="main-notice">
+            <div class="mn-single">
+                <div class="mns-wrapper j-c-s">
+                    <div class="ms-title">
+                        <h5>
+                            <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nemo
+                                voluptas
+                            </a>
+                        </h5>
                     </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
+                    <div class="mnst-view-down j-c-s">
+                        <a href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-download"></i>
+                        </a>
                     </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
+                </div>
+                <div class="mnst-date">
+                    <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
+                </div>
+            </div>
+            <div class="mn-single">
+                <div class="mns-wrapper j-c-s">
+                    <div class="ms-title">
+                        <h5>
+                            <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nemo
+                                voluptas
+                            </a>
+                        </h5>
                     </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
+                    <div class="mnst-view-down j-c-s">
+                        <a href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-download"></i>
+                        </a>
                     </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
+                </div>
+                <div class="mnst-date">
+                    <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
+                </div>
+            </div>
+            <div class="mn-single">
+                <div class="mns-wrapper j-c-s">
+                    <div class="ms-title">
+                        <h5>
+                            <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nemo
+                                voluptas
+                            </a>
+                        </h5>
                     </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
+                    <div class="mnst-view-down j-c-s">
+                        <a href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-download"></i>
+                        </a>
                     </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
+                </div>
+                <div class="mnst-date">
+                    <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
+                </div>
+            </div>
+            <div class="mn-single">
+                <div class="mns-wrapper j-c-s">
+                    <div class="ms-title">
+                        <h5>
+                            <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nemo
+                                voluptas
+                            </a>
+                        </h5>
                     </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
+                    <div class="mnst-view-down j-c-s">
+                        <a href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-download"></i>
+                        </a>
                     </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
+                </div>
+                <div class="mnst-date">
+                    <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
+                </div>
+            </div>
+            <div class="mn-single">
+                <div class="mns-wrapper j-c-s">
+                    <div class="ms-title">
+                        <h5>
+                            <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nemo
+                                voluptas
+                            </a>
+                        </h5>
                     </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
+                    <div class="mnst-view-down j-c-s">
+                        <a href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-download"></i>
+                        </a>
                     </div>
+                </div>
+                <div class="mnst-date">
+                    <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
+                </div>
+            </div>
+            <div class="mn-single">
+                <div class="mns-wrapper j-c-s">
+                    <div class="ms-title">
+                        <h5>
+                            <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nemo
+                                voluptas
+                            </a>
+                        </h5>
+                    </div>
+                    <div class="mnst-view-down j-c-s">
+                        <a href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="mnst-date">
+                    <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
+                </div>
+            </div>
+            <div class="mn-single">
+                <div class="mns-wrapper j-c-s">
+                    <div class="ms-title">
+                        <h5>
+                            <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nemo
+                                voluptas
+                            </a>
+                        </h5>
+                    </div>
+                    <div class="mnst-view-down j-c-s">
+                        <a href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="mnst-date">
+                    <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
+                </div>
+            </div>
 
-                    <!-- <div class="mn-single">
+
+            <!-- <div class="mn-single">
                         <div class="mns-top j-c-s">
                             <div class="mnst-date">
                                 <i class="fas fa-calendar-day"></i> <span>21 Jan, 2077</span>
@@ -261,31 +201,6 @@
                             </h5>
                         </div>
                     </div> -->
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="main-related-link">
-                    <div class="sec-title">
-                        <h2>Related Links</h2>
-                    </div>
-                    <ul class="mrl-links">
-                        <ul class="mrl-links">
-                            <li>
-                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-                                    natus.</a>
-                            </li>
-                            <li>
-                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-                                    natus.</a>
-                            </li>
-                            <li>
-                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-                                    natus.</a>
-                            </li>
-                        </ul>
-                    </ul>
-                </div>
-            </div>
         </div>
     </div>
 </section>

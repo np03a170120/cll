@@ -3,25 +3,34 @@
 <!-- MAIN-BANNER -->
 <section class="main-banner main-banner-slider">
     <div class="main-banner-slider">
-        <div class="main-banner-single" style="background-image:url(./images/slide.jpg)">
+        <div class="main-banner-single" style="background-image:url(./images/dummy-lib.jpg)">
             <div class="mbs-text">
-                <h4>Central Law Library </h4>
-
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni nobis </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti asperiores quaerat illo modi
+                    aliquid non ut labore earum ipsam neque, pariatur corrupti vel natus odit architecto tempore, autem
+                    eum itaque.</p>
             </div>
         </div>
         <div class="main-banner-single" style="background-image:url(./images/dummy-lib.jpg)">
             <div class="mbs-text">
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni nobis </h4>
-
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti asperiores quaerat illo modi
+                    aliquid non ut labore earum ipsam neque, pariatur corrupti vel natus odit architecto tempore, autem
+                    eum itaque.</p>
             </div>
         </div>
+
         <div class="main-banner-single" style="background-image:url(./images/dummy-lib.jpg)">
             <div class="mbs-text">
-                <h4>Find your favourite book. </h4>
-                <p>Type book name and click search button. Thats it.</p>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni nobis </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti asperiores quaerat illo modi
+                    aliquid non ut labore earum ipsam neque, pariatur corrupti vel natus odit architecto tempore, autem
+                    eum itaque.</p>
             </div>
         </div>
     </div>
+
+
 
 </section>
 
@@ -41,7 +50,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3">
                         <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-search">
-                            </i><span>Search</span></button>
+                                <span>Search</span></i></button>
                     </div>
                 </div>
             </form>
@@ -59,22 +68,25 @@
                 </div>
                 <div class="ma-content">
                     <p>
-                        Central Law Library was established at the initiative of the Supreme Court of Nepal and The Asia
-                        Foundation during the tenure of Chief Justice Biswanath Upadhyaya in 1993. The Asia Foundation
-                        and some other foreign embassies put tremendous effort for the establishment of the Library that
-                        may includes supply of estimated 3000 volumes of law books, infrastructure, library equipment's
-                        and consultancy service, among others. UN Information Center Kathmandu supported the library in
-                        early years.
-                    </p>
-
-                    <p>
-                        Major objective of the library is to improve the legal research system in the country. The
-                        library is probably biggest law library in the country opened for public. Researchers, law
-                        student at the advance level and lawyers comprise largest number of its users. Fifty of them in
-                        average visit the library every day.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur, quia magnam,
+                        suscipit incidunt similique, in at odio exercitationem omnis optio corrupti sapiente libero
+                        accusamus fugit! Adipisci iste tenetur illum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur, quia magnam,
+                        suscipit incidunt similique, in at odio exercitationem omnis optio corrupti sapiente libero
+                        accusamus fugit! Adipisci iste tenetur illum. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Facere consectetur, quia magnam,
+                        suscipit incidunt similique, in at odio exercitationem omnis optio corrupti sapiente libero
+                        accusamus fugit! Adipisci iste tenetur illum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur, quia magnam,
+                        suscipit incidunt similique, in at odio exercitationem omnis optio corrupti sapiente libero
+                        accusamus fugit! Adipisci iste tenetur illum.
+                        ! Adipisci iste tenetur illum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur, quia magnam,
+                        suscipit incidunt similique, in at odio exercitationem omnis optio corrupti sapiente libero
+                        accusamus fugit! Adipisci iste tenetur illum.
                     </p>
                     <div class="view-all text-left">
-                        <a href="#">Read More</a>
+                        <a href="#">Read more</a>
                     </div>
                 </div>
             </div>
@@ -84,20 +96,19 @@
                         <h5>Message from the chief librarian</h5>
                     </div>
                     <div class="cheif-img">
-                        <img src="./images/chief.jpg" alt="">
+                        <img src="./images/chief.png" alt="">
                     </div>
                     <div class="chief-name">
-                        <h5>Mr.Madhusudhan Subedi</h5>
+                        <h5>Mr. Naive Shrestha</h5>
                     </div>
                     <div class="mm-msg">
-                        <p>Dear valued users!
-                            It is my great pleasure to announce that the Central Law Library (CLL) is going to
-                            launch its official website containing electronic catalogue and other useful
-                            information for the library users.
-                            CLL is a public law library opened for all and especially to those who are interested</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt expedita, ad ex assumenda
+                            deleniti fugaLorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt expedita, ad
+                            ex assumenda
+                            deleniti fuga</p>
                     </div>
                     <div class="mm-learn-more">
-                        <a href="inner-message.php">Message</a>
+                        <a href="inner-message.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -108,14 +119,14 @@
 <!-- OUR SERVICES -->
 <section class="main-services">
     <div class="container">
-        <div class="sec-title section-padding text-center">
+        <div class="sec-title text-center section-padding">
             <h2>Our Services</h2>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-3">
                 <div class="ms-single">
                     <div class="icon-service">
-                        <a href="https://demo.mrdealsnepal.com/library.php"><i class="fas fa-book"></i>
+                        <a href="#"><i class="fas fa-book"></i>
                             <span>E-Library</span>
                         </a>
                     </div>
@@ -124,8 +135,8 @@
             <div class="col-lg-3 col-md-3">
                 <div class="ms-single">
                     <div class="icon-service">
-                        <a href="#"><i class="fas fa-print"></i>
-                            <span>Printing</span>
+                        <a href="#"><i class="fas fa-desktop"></i>
+                            <span>Computer</span>
                         </a>
                     </div>
                 </div>
@@ -159,15 +170,14 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="main-notice">
-                    <div class="sec-title">
+                    <div class="sec-title section-padding">
                         <h2>NOTICES</h2>
                     </div>
                     <div class="mn-single">
                         <div class="mns-wrapper j-c-s">
                             <div class="ms-title">
                                 <h5>
-                                    <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Nemo
+                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                                         voluptas
                                     </a>
                                 </h5>
@@ -189,8 +199,7 @@
                         <div class="mns-wrapper j-c-s">
                             <div class="ms-title">
                                 <h5>
-                                    <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Nemo
+                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                                         voluptas
                                     </a>
                                 </h5>
@@ -212,8 +221,7 @@
                         <div class="mns-wrapper j-c-s">
                             <div class="ms-title">
                                 <h5>
-                                    <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Nemo
+                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                                         voluptas
                                     </a>
                                 </h5>
@@ -235,8 +243,7 @@
                         <div class="mns-wrapper j-c-s">
                             <div class="ms-title">
                                 <h5>
-                                    <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Nemo
+                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                                         voluptas
                                     </a>
                                 </h5>
@@ -258,54 +265,7 @@
                         <div class="mns-wrapper j-c-s">
                             <div class="ms-title">
                                 <h5>
-                                    <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
-                    </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Nemo
-                                        voluptas
-                                    </a>
-                                </h5>
-                            </div>
-                            <div class="mnst-view-down j-c-s">
-                                <a href="#">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fas fa-download"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mnst-date">
-                            <i class="fas fa-calendar-day"></i> <span>21 Jan</span>
-                        </div>
-                    </div>
-                    <div class="mn-single">
-                        <div class="mns-wrapper j-c-s">
-                            <div class="ms-title">
-                                <h5>
-                                    <a href="inner-notice.php"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Nemo
+                                    <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                                         voluptas
                                     </a>
                                 </h5>
@@ -324,55 +284,72 @@
                         </div>
                     </div>
 
+                    <!-- <div class="mn-single">
+                        <div class="mns-top j-c-s">
+                            <div class="mnst-date">
+                                <i class="fas fa-calendar-day"></i> <span>21 Jan, 2077</span>
+                            </div>
+                            <div class="mnst-view-down">
+                                <a href="#">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-download"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mns-bot">
+                            <h5>
+                                <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptas
+                                    ipsa molestias
+                                    voluptates distinctio aperiam culpa, incidunt quia eaque delectus dicta.
+                                </a>
+                            </h5>
+                        </div>
+                    </div> -->
                     <div class="view-all">
-                        <a href="#">View all</a>
+                        <a href="notice.php">View all</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="main-info-officer sec-padding">
+                <div class="main-info-officer">
                     <div class="sec-title-small">
                         <h5>Information Officer</h5>
                     </div>
                     <div class="cheif-img">
-                        <img src="./images/dummy-profile.jpg" alt="">
+                        <img src="./images/chief.png" alt="">
                     </div>
                     <div class="chief-detail">
                         <div class="chief-name">
-                            <h5>Mr. Information Officer</h5>
+                            <h5>Mr. Naive Shrestha</h5>
                         </div>
                         <div class="cd-phone">
                             <i class="fas fa-phone-square-alt"></i>
-                            <span>+977 984111111</span>
+                            <span>9847779841</span>
                         </div>
                         <div class="cd-email">
                             <i class="fas fa-envelope"></i>
-                            <span>info@cll.org.np</span>
+                            <span>chief@company.com</span>
                         </div>
                     </div>
 
                 </div>
                 <div class="main-related-link section-padding">
-                    <div class="sec-title">
-                        <h2>Important Links</h2>
+                    <div class="sec-title text-center">
+                        <h2>Related Links</h2>
                     </div>
                     <ul class="mrl-links">
                         <li>
-                            <a href="#">Office of the Prime Minister & council of Minister</a>
+                            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+                                natus.</a>
                         </li>
                         <li>
-                            <a href="#">Tribhuwan University Central Library</a>
+                            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+                                natus.</a>
                         </li>
                         <li>
-                            <a href="#">Nepal National Library</a>
+                            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+                                natus.</a>
                         </li>
-                        <li>
-                            <a href="#">Ministry of Law, Justice and Parliamentary Affairs</a>
-                        </li>
-                        <li>
-                            <a href="#">Office of Attorney General</a>
-                        </li>
-
                     </ul>
                 </div>
             </div>
@@ -383,70 +360,31 @@
 <!-- MAIN GALLERY -->
 <section class="main-gallery">
     <div class="container">
-        <div class="sec-title text-center">
+        <div class="sec-title text-center section-padding">
             <h2>Gallery</h2>
         </div>
         <div class="row">
             <div class="col-lg-3">
-                <div class="ib-single">
-                    <div class="ibs-img">
-                        <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                            <i class="fas fa-search-plus"></i>
-                        </a>
-                        <img src="./images/dummy-potrait-2.jpg" alt="">
-                    </div>
-                    <div class="ibs-caption">
-                        <i class="fas fa-info-circle"></i>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
-                        </p>
-                    </div>
+                <div class="mg-single">
+                    <img src="./images/dummy-potrait.jpg" alt="">
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="ib-single">
-                    <div class="ibs-img">
-                        <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                            <i class="fas fa-search-plus"></i>
-                        </a>
-                        <img src="./images/dummy-potrait-2.jpg" alt="">
-                    </div>
-                    <div class="ibs-caption">
-                        <i class="fas fa-info-circle"></i>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic numquam delectus rem
-                            esse non earum omnis,.</p>
-                    </div>
+                <div class="mg-single">
+                    <img src="./images/dummy-potrait-2.jpg" alt="">
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="ib-single">
-                    <div class="ibs-img">
-                        <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                            <i class="fas fa-search-plus"></i>
-                        </a>
-                        <img src="./images/dummy-potrait-2.jpg" alt="">
-                    </div>
-                    <div class="ibs-caption">
-                        <i class="fas fa-info-circle"></i>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
-                        </p>
-                    </div>
+                <div class="mg-single">
+                    <img src="./images/chief.png" alt="">
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="ib-single">
-                    <div class="ibs-img">
-                        <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                            <i class="fas fa-search-plus"></i>
-                        </a>
-                        <img src="./images/dummy-potrait-2.jpg" alt="">
-                    </div>
-                    <div class="ibs-caption">
-                        <i class="fas fa-info-circle"></i>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic numquam delectus rem
-                            esse non earum omnis,.</p>
-                    </div>
+                <div class="mg-single">
+                    <img src="./images/dummy-potrait-3.jpg" alt="">
                 </div>
             </div>
+
         </div>
         <div class="view-all btn-margin">
             <a href="#">View all</a>

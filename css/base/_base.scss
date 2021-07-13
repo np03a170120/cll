@@ -98,7 +98,7 @@ body {
         &::after {
             content: "";
             position: absolute;
-            background: rgb(212, 212, 212);
+            background: rgb(175, 19, 19);
             height: 2px;
             bottom: -10%;
             left: 50%;
@@ -109,9 +109,9 @@ body {
 }
 
 .sec-title-small {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     h5 {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         font-weight: bold;
         text-transform: uppercase;

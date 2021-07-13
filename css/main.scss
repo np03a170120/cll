@@ -18,24 +18,38 @@
     display: flex;
 }
 
+.d-f-a {
+    display: flex;
+    align-items: center;
+}
+
+.d-f-e {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .bg-secondary-blue {
     background: #21418e;
 }
 
+.text-center {
+    text-align: center;
+}
+
 // HEAEDER
+.header-top-main {
+    background-color: $primary-red;
+}
+
 .header-top {
     background-color: $primary-red;
     color: white;
-    padding: 0.688rem 15.313rem;
+    padding: 0.688rem 0;
     font-size: 12px;
     .hf-calender,
     .hr-email {
         margin-left: 20px;
     }
-}
-
-.header-mid {
-    padding: 10px 242px;
 }
 
 .hm-title {
@@ -56,9 +70,13 @@
 .hm-flag {
     text-align: right;
     img {
-        height: auto;
-        width: 29%;
+        height: 110px;
+        width: 25%;
     }
+}
+
+.header-mid {
+    padding: 5px 0;
 }
 
 .header-bot {
@@ -66,16 +84,16 @@
         color: rgb(253, 253, 253);
         text-align: center;
         &:hover {
-            color: rgb(187, 187, 187);
+            color: white;
+            background-color: $primary-red;
         }
+    }
+    .nav-item {
+        margin: 0 5px;
     }
     .navbar {
         padding: 25px;
         z-index: 999;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 1.5rem;
-        padding-left: 0.5rem;
     }
     .navbar-nav.navbar-center {
         position: absolute;
@@ -145,13 +163,23 @@
 
 .dropdown-item {
     color: white;
+    &:hover {
+        color: white;
+        background: $primary-red;
+    }
+}
+
+.active-link {
+    background: $primary-red;
+    color: white;
 }
 
 #dLabel {
     color: white;
     padding: 5px;
     &:hover {
-        color: rgb(187, 187, 187);
+        color: white;
+        background: $primary-red;
     }
 }
 
@@ -225,13 +253,13 @@
 }
 
 .mm-learn-more {
-    background: white;
+    background: $secondary-blue;
     display: inline-block;
     padding: 5px 10px;
+    line-height: 16px;
     a {
         font-size: 10px;
-        line-height: 16px;
-        color: black;
+        color: white;
         font-weight: 500;
         &:hover {
             color: $primary-red;
@@ -497,14 +525,13 @@
 }
 
 .footer-bottom {
-    padding: 5px;
+    padding: 5px 0;
     color: white;
     background: $primary-red;
 }
 
 .ft-left {
     font-size: 13px;
-    margin-left: 20px;
 }
 
 .ft-right {
@@ -632,7 +659,6 @@
 // INNER-MSG
 .im-cheif {
     padding: 10px;
-    border: 1px solid rgb(216, 216, 216);
     span {
         font-size: 12px;
         margin-top: 0;
@@ -707,11 +733,12 @@
     h5 {
         position: relative;
         margin-bottom: 40px;
+        color: $secondary-blue;
         &::after {
             content: "";
             position: absolute;
             height: 1px;
-            bottom: -15px;
+            bottom: -30%;
             background: rgb(209, 209, 209);
             width: 50%;
             left: 0;
@@ -720,6 +747,13 @@
     span {
         font-size: 13px;
     }
+}
+
+.wrapingimage {
+    float: left;
+    // margin: 8px 15px 15px 4px;
+    margin: 20px 20px 3px 4px;
+    border: 2px solid rgb(240, 240, 240);
 }
 
 .icf-text {
@@ -738,5 +772,62 @@
 .inner-notice {
     .mn-single:first-child {
         margin-top: 0;
+    }
+}
+
+// INNER - NOTICe
+.inc-img {
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+// ONLINE - RESOURCES
+.main-resources {
+    .mrl-links {
+        li {
+            position: relative;
+            padding: 10px;
+            background-color: whitesmoke;
+            &::before {
+                padding: 10px;
+                background-color: $primary-red;
+                color: white;
+                position: absolute;
+                top: 5%;
+                left: 0;
+                width: 3%;
+            }
+        }
+        a {
+            font-size: 15px;
+            margin-left: 30px;
+        }
+    }
+}
+
+.mrl-links-right {
+    li {
+        padding-left: 1.3em;
+        margin-top: 10px;
+        &::before {
+            font-size: 12px;
+            color: #007bff;
+            content: "\f0c1";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 800;
+            margin-left: -1.3em;
+            /* same as padding-left set on li */
+            width: 1.3em;
+            /* same as padding-left set on li */
+        }
+        &:last-child {
+            margin-bottom: 20px;
+        }
+    }
+    a {
+        font-size: 12px;
+        text-decoration: underline;
     }
 }

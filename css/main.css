@@ -105,7 +105,7 @@ body input .btn:focus {
 .sec-title h2::after {
   content: "";
   position: absolute;
-  background: #d4d4d4;
+  background: #af1313;
   height: 2px;
   bottom: -10%;
   left: 50%;
@@ -115,11 +115,11 @@ body input .btn:focus {
 }
 
 .sec-title-small {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .sec-title-small h5 {
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
@@ -169,24 +169,46 @@ body input .btn:focus {
   display: flex;
 }
 
+.d-f-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.d-f-e {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .bg-secondary-blue {
   background: #21418e;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.header-top-main {
+  background-color: #de1d3c;
 }
 
 .header-top {
   background-color: #de1d3c;
   color: white;
-  padding: 0.688rem 15.313rem;
+  padding: 0.688rem 0;
   font-size: 12px;
 }
 
 .header-top .hf-calender,
 .header-top .hr-email {
   margin-left: 20px;
-}
-
-.header-mid {
-  padding: 10px 242px;
 }
 
 .hm-title img {
@@ -206,8 +228,12 @@ body input .btn:focus {
 }
 
 .hm-flag img {
-  height: auto;
-  width: 29%;
+  height: 110px;
+  width: 25%;
+}
+
+.header-mid {
+  padding: 5px 0;
 }
 
 .header-bot .navbar-light .navbar-nav .nav-link {
@@ -216,17 +242,17 @@ body input .btn:focus {
 }
 
 .header-bot .navbar-light .navbar-nav .nav-link:hover {
-  color: #bbbbbb;
+  color: white;
+  background-color: #de1d3c;
+}
+
+.header-bot .nav-item {
+  margin: 0 5px;
 }
 
 .header-bot .navbar {
   padding: 25px;
   z-index: 999;
-}
-
-.header-bot .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 1.5rem;
-  padding-left: 0.5rem;
 }
 
 .header-bot .navbar-nav.navbar-center {
@@ -301,13 +327,24 @@ body input .btn:focus {
   color: white;
 }
 
+.dropdown-item:hover {
+  color: white;
+  background: #de1d3c;
+}
+
+.active-link {
+  background: #de1d3c;
+  color: white;
+}
+
 #dLabel {
   color: white;
   padding: 5px;
 }
 
 #dLabel:hover {
-  color: #bbbbbb;
+  color: white;
+  background: #de1d3c;
 }
 
 .main-search {
@@ -383,15 +420,15 @@ body input .btn:focus {
 }
 
 .mm-learn-more {
-  background: white;
+  background: #21418e;
   display: inline-block;
   padding: 5px 10px;
+  line-height: 16px;
 }
 
 .mm-learn-more a {
   font-size: 10px;
-  line-height: 16px;
-  color: black;
+  color: white;
   font-weight: 500;
 }
 
@@ -672,14 +709,13 @@ body input .btn:focus {
 }
 
 .footer-bottom {
-  padding: 5px;
+  padding: 5px 0;
   color: white;
   background: #de1d3c;
 }
 
 .ft-left {
   font-size: 13px;
-  margin-left: 20px;
 }
 
 .ft-right i {
@@ -809,7 +845,6 @@ body input .btn:focus {
 
 .im-cheif {
   padding: 10px;
-  border: 1px solid #d8d8d8;
 }
 
 .im-cheif span {
@@ -893,13 +928,14 @@ body input .btn:focus {
 .ic-title h5 {
   position: relative;
   margin-bottom: 40px;
+  color: #21418e;
 }
 
 .ic-title h5::after {
   content: "";
   position: absolute;
   height: 1px;
-  bottom: -15px;
+  bottom: -30%;
   background: #d1d1d1;
   width: 50%;
   left: 0;
@@ -907,6 +943,12 @@ body input .btn:focus {
 
 .ic-title span {
   font-size: 13px;
+}
+
+.wrapingimage {
+  float: left;
+  margin: 20px 20px 3px 4px;
+  border: 2px solid #f0f0f0;
 }
 
 .icf-text h5 {
@@ -922,5 +964,57 @@ body input .btn:focus {
 
 .inner-notice .mn-single:first-child {
   margin-top: 0;
+}
+
+.inc-img img {
+  height: auto;
+  width: 100%;
+}
+
+.main-resources .mrl-links li {
+  position: relative;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.main-resources .mrl-links li::before {
+  padding: 10px;
+  background-color: #de1d3c;
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 3%;
+}
+
+.main-resources .mrl-links a {
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.mrl-links-right li {
+  padding-left: 1.3em;
+  margin-top: 10px;
+}
+
+.mrl-links-right li::before {
+  font-size: 12px;
+  color: #007bff;
+  content: "\f0c1";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.3em;
+  /* same as padding-left set on li */
+}
+
+.mrl-links-right li:last-child {
+  margin-bottom: 20px;
+}
+
+.mrl-links-right a {
+  font-size: 12px;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */

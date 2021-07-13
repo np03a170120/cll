@@ -2,7 +2,7 @@
     <section class="footer-main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 footer-link-pad">
+                <div class="col-lg-4 col-md-4">
                     <div class="opening-hours">
                         <div class="footer-title">
                             <h3>Opening Hours</h3>
@@ -14,7 +14,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 footer-link-pad">
+                <div class="col-lg-4 col-md-4 j-c-c">
                     <div class="quick-links">
                         <div class="footer-title">
                             <h3>Quick Links</h3>
@@ -27,7 +27,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 footer-link-pad">
+                <div class="col-lg-4 col-md-4 d-f-e">
                     <div class="quick-links">
                         <div class="footer-title">
                             <h3>Contact Us</h3>
@@ -52,7 +52,7 @@
     </section>
     <section class="footer-bottom">
         <div class="container">
-            <div class="ft-content j-c-s">
+            <div class="ft-content">
                 <div class="ft-left">
                     <span>© Copyright Central Law Library. All Rights Reserved
                     </span>

@@ -53,7 +53,9 @@
                 <div class="row">
                     <div class="col-lg-4 d-f-a">
                         <div class="hm-logo ">
-                            <img src="./images/coat-of-arms.png" alt="">
+                            <a href="index.php">
+                                <img src="./images/coat-of-arms.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4 j-c-c">
@@ -99,7 +101,7 @@
                             <a class="nav-link" href="library.php">Library</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="notice.php">Notice</a>
+                            <a class="nav-link" href=download.php>Downloads</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="online-resources.php">Online Resources</a>

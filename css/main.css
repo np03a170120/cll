@@ -100,6 +100,7 @@ body input .btn:focus {
 .sec-title h2 {
   position: relative;
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 .sec-title h2::after {
@@ -126,7 +127,7 @@ body input .btn:focus {
 }
 
 .section-padding {
-  margin: 30px 0;
+  margin: 25px 0;
 }
 
 .inner-library .ms-content .btn.btn-primary.mb-2 {
@@ -543,6 +544,10 @@ body input .btn:focus {
   padding: 10px 15px;
 }
 
+.main-related-link .sec-title {
+  text-align: center;
+}
+
 .main-related-link .sec-title h2 {
   font-size: 20px;
 }
@@ -550,6 +555,10 @@ body input .btn:focus {
 .mrl-links li {
   padding-left: 1.3em;
   margin-top: 10px;
+}
+
+.mrl-links li:first-child {
+  margin-top: 0px;
 }
 
 .mrl-links li::before {
@@ -642,7 +651,7 @@ body input .btn:focus {
 }
 
 .btn-margin {
-  margin: 40px 0;
+  margin: 30px 0;
 }
 
 .footer-link-pad {
@@ -818,7 +827,6 @@ body input .btn:focus {
 
 .ib-single {
   padding: 10px;
-  margin-bottom: 30px;
   border: 1px solid #d8d8d8;
   min-height: 350px;
   max-height: 350px;
@@ -862,8 +870,8 @@ body input .btn:focus {
 }
 
 .im-img img {
-  height: 200px;
-  width: 100%;
+  height: 250px;
+  width: 250px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1016,5 +1024,26 @@ body input .btn:focus {
 .mrl-links-right a {
   font-size: 12px;
   text-decoration: underline;
+}
+
+.nav-tabs {
+  background-color: #de1d3c;
+  color: white;
+}
+
+.nav-tabs .nav-link {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: white;
+  border-right: 1px solid white;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #21418e;
+}
+
+.main-notice .mn-single:first-child {
+  margin-top: 10px;
 }
 /*# sourceMappingURL=main.css.map */

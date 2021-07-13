@@ -674,26 +674,20 @@ body input .btn:focus {
 }
 
 .oh-content-top li {
-  padding-left: 1.3em;
-  margin-top: 10px;
   margin-top: 10px;
   font-size: 15px;
 }
 
-.oh-content-top li::before {
-  color: white;
-  content: "\f054";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 800;
-  margin-left: -1.3em;
-  /* same as padding-left set on li */
-  width: 1.3em;
-  /* same as padding-left set on li */
+.oh-content-top li::before:hover {
+  color: #de1d3c;
 }
 
 .oh-content-top li a {
-  margin-left: 5px;
   color: white;
+}
+
+.oh-content-top li a:hover {
+  color: #de1d3c !important;
 }
 
 .oh-content-top li i {
@@ -711,6 +705,10 @@ body input .btn:focus {
 
 .oh-content li a {
   color: white;
+}
+
+.oh-content li a:hover {
+  color: #de1d3c;
 }
 
 .oh-content li i {

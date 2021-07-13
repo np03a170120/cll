@@ -490,23 +490,27 @@
 .oh-content-top {
     margin-top: 20px;
     li {
-        padding-left: 1.3em;
-        margin-top: 10px;
         margin-top: 10px;
         font-size: 15px;
-        &::before {
-            color: white;
-            content: "\f054";
-            font-family: "Font Awesome 5 Free";
-            font-weight: 800;
-            margin-left: -1.3em;
-            /* same as padding-left set on li */
-            width: 1.3em;
-            /* same as padding-left set on li */
+        // &::before {
+        //     color: white;
+        //     content: "\f054";
+        //     font-family: "Font Awesome 5 Free";
+        //     font-weight: 800;
+        //     margin-left: -1.3em;
+        //     /* same as padding-left set on li */
+        //     width: 1.3em;
+        //     /* same as padding-left set on li */
+        // }
+        &::before:hover {
+            color: $primary-red;
         }
         a {
-            margin-left: 5px;
+            // margin-left: 5px;
             color: white;
+            &:hover {
+                color: $primary-red !important;
+            }
         }
         i {
             margin-right: 10px;
@@ -521,6 +525,9 @@
         font-size: 15px;
         a {
             color: white;
+            &:hover {
+                color: $primary-red;
+            }
         }
         i {
             margin-right: 10px;

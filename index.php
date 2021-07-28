@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
 
 <!-- MAIN-BANNER -->
-<section class="main-banner main-banner-slider">
+<section class="main-banner">
     <div class="main-banner-slider">
         <div class="main-banner-single" style="background-image:url(./images/slide.jpg)">
             <div class="mbs-text">
@@ -30,16 +30,16 @@
         <div class="ms-content">
             <form>
                 <div class="row">
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-3 nopad">
                         <input type="text" class="form-control" placeholder="Author">
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-4 nopad">
                         <input type="text" class="form-control" placeholder="Title">
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-3 nopad">
                         <input type="text" class="form-control" placeholder="Publisher">
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-2 nopad">
                         <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-search">
                             </i><span>Search</span></button>
                     </div>
@@ -83,7 +83,7 @@
                     <div class="sec-title-small">
                         <h5>Message from the chief librarian</h5>
                     </div>
-                    <div class="cheif-img">
+                    <div class="cheif-img hover-effect">
                         <img src="./images/chief.jpg" alt="">
                     </div>
                     <div class="chief-name">
@@ -112,7 +112,7 @@
             <h2>Our Services</h2>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-3">
+            <div class="col-lg-3 col-md-3 col-6">
                 <div class="ms-single">
                     <div class="icon-service">
                         <a href="https://demo.mrdealsnepal.com/library.php"><i class="fas fa-book"></i>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3">
+            <div class="col-lg-3 col-md-3 col-6">
                 <div class="ms-single">
                     <div class="icon-service">
                         <a href="#"><i class="fas fa-print"></i>
@@ -130,7 +130,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3">
+            <div class="col-lg-3 col-md-3 col-6">
                 <div class="ms-single">
                     <div class="icon-service">
                         <a href="#"><i class="fas fa-bookmark"></i>
@@ -139,7 +139,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3">
+            <div class="col-lg-3 col-md-3 col-6">
                 <div class="ms-single">
                     <div class="icon-service">
                         <a href="#"><i class="fas fa-file"></i>
@@ -534,65 +534,70 @@
         <div class="sec-title text-center">
             <h2>Gallery</h2>
         </div>
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="ib-single">
-                    <div class="ibs-img">
-                        <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                            <i class="fas fa-search-plus"></i>
-                        </a>
-                        <img src="./images/dummy-potrait-2.jpg" alt="">
-                    </div>
-                    <div class="ibs-caption">
-                        <i class="fas fa-info-circle"></i>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
-                        </p>
-                    </div>
+        <div class="center">
+            <div class="ib-single">
+                <div class="ibs-img">
+                    <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                        <i class="fas fa-search-plus"></i>
+                    </a>
+                    <img src="./images/dummy-potrait-2.jpg" alt="">
+                </div>
+                <div class="ibs-caption">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
+                    </p>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <div class="ib-single">
-                    <div class="ibs-img">
-                        <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                            <i class="fas fa-search-plus"></i>
-                        </a>
-                        <img src="./images/dummy-potrait-2.jpg" alt="">
-                    </div>
-                    <div class="ibs-caption">
-                        <i class="fas fa-info-circle"></i>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic numquam delectus rem
-                            esse non earum omnis,.</p>
-                    </div>
+            <div class="ib-single">
+                <div class="ibs-img">
+                    <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                        <i class="fas fa-search-plus"></i>
+                    </a>
+                    <img src="./images/dummy-potrait-2.jpg" alt="">
+                </div>
+                <div class="ibs-caption">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
+                    </p>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <div class="ib-single">
-                    <div class="ibs-img">
-                        <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                            <i class="fas fa-search-plus"></i>
-                        </a>
-                        <img src="./images/dummy-potrait-2.jpg" alt="">
-                    </div>
-                    <div class="ibs-caption">
-                        <i class="fas fa-info-circle"></i>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
-                        </p>
-                    </div>
+            <div class="ib-single">
+                <div class="ibs-img">
+                    <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                        <i class="fas fa-search-plus"></i>
+                    </a>
+                    <img src="./images/dummy-potrait-2.jpg" alt="">
+                </div>
+                <div class="ibs-caption">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
+                    </p>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <div class="ib-single">
-                    <div class="ibs-img">
-                        <a class="fancybox" href="./images/dummy-potrait-2.jpg">
-                            <i class="fas fa-search-plus"></i>
-                        </a>
-                        <img src="./images/dummy-potrait-2.jpg" alt="">
-                    </div>
-                    <div class="ibs-caption">
-                        <i class="fas fa-info-circle"></i>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic numquam delectus rem
-                            esse non earum omnis,.</p>
-                    </div>
+            <div class="ib-single">
+                <div class="ibs-img">
+                    <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                        <i class="fas fa-search-plus"></i>
+                    </a>
+                    <img src="./images/dummy-potrait-2.jpg" alt="">
+                </div>
+                <div class="ibs-caption">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
+                    </p>
+                </div>
+            </div>
+            <div class="ib-single">
+                <div class="ibs-img">
+                    <a class="fancybox" href="./images/dummy-potrait-2.jpg">
+                        <i class="fas fa-search-plus"></i>
+                    </a>
+                    <img src="./images/dummy-potrait-2.jpg" alt="">
+                </div>
+                <div class="ibs-caption">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum facere quam
+                    </p>
                 </div>
             </div>
         </div>

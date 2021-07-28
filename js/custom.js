@@ -1,13 +1,8 @@
 $(".main-banner-slider").slick({
     infinite: true,
-    slidesToShow: 1,
-    infinite: false,
     arrows: false,
     speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    prevArrow: '<i class="fas fa-chevron-circle-right"></i>',
-    nextArrow: '<i class="fas fa-chevron-circle-left"></i>',
+    dots: true,
 });
 
 $(".btn-group, .dropdown").hover(
@@ -21,10 +16,6 @@ $(".btn-group, .dropdown").hover(
     }
 );
 
-function LinkFormatter(value, row, index) {
-    return "<a href='" + row.url + "'>" + value + "</a>";
-}
-
 $(document).ready(function() {
     $(".fancybox").fancybox({
         openEffect: "none",
@@ -37,4 +28,32 @@ $(document).ready(function() {
             },
         },
     });
+});
+
+$(".center").slick({
+    centerMode: true,
+    centerPadding: "60px",
+    slidesToShow: 3,
+    arrows: true,
+    prevArrow: '<i class="fas fa-arrow-left"></i>',
+    nextArrow: '<i class="fas fa-arrow-right"></i>',
+    responsive: [{
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: "40px",
+                slidesToShow: 3,
+            },
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: "40px",
+                slidesToShow: 1,
+            },
+        },
+    ],
 });

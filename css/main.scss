@@ -103,6 +103,10 @@
 }
 
 // MAIN - BANNER
+.main-banner {
+    position: relative;
+}
+
 .main-banner-single {
     height: 67vh;
     background-repeat: no-repeat;
@@ -136,19 +140,19 @@
     position: relative;
 }
 
-.dropdown-submenu>a:after {
+.dropdown-submenuaafter {
     content: ">";
     float: right;
 }
 
-.dropdown-submenu>.dropdown-menu {
+.dropdown-submenu.ropdown-menu {
     top: 0;
     left: 100%;
     margin-top: 0px;
     margin-left: 0px;
 }
 
-.dropdown-submenu:hover>.dropdown-menu {
+.dropdown-submenu:hover.ropdown-menu {
     display: block;
 }
 
@@ -249,21 +253,6 @@
         height: 200px;
         width: 200px;
         object-fit: cover;
-    }
-}
-
-.mm-learn-more {
-    background: $secondary-blue;
-    display: inline-block;
-    padding: 5px 10px;
-    line-height: 16px;
-    a {
-        font-size: 10px;
-        color: white;
-        font-weight: 500;
-        &:hover {
-            color: $primary-red;
-        }
     }
 }
 
@@ -643,6 +632,27 @@
     overflow: hidden;
 }
 
+.main-gallery .ib-single {
+    margin-left: 15px;
+}
+
+.main-gallery .slick-arrow {
+    position: absolute;
+    top: 40%;
+    background: none;
+    color: #0c0a0a;
+    z-index: 3;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: $primary-red;
+    color: white;
+}
+
+.main-gallery .fas.fa-chevron-circle-right.slick-arrow {
+    right: 20px;
+}
+
 // LIBRARY
 .il-table {
     background: whitesmoke;
@@ -864,5 +874,154 @@
         &:first-child {
             margin-top: 10px;
         }
+    }
+}
+
+.hover-effect {
+    overflow: hidden;
+    position: relative;
+    img {
+        transition: all 0.3s ease-in-out;
+    }
+    &:hover img {
+        transform: scale(1.1);
+    }
+}
+
+.main-banner .slick-arrow {
+    position: absolute;
+    top: 40%;
+    background: none;
+    color: rgb(219, 7, 7);
+    z-index: 3;
+    font-size: 50px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.fas.fa-chevron-circle-right.slick-arrow {
+    right: 20px;
+}
+
+.fas.fa-chevron-circle-left.slick-arrow {
+    left: 20px;
+}
+
+.fas.fa-arrow-right.slick-arrow {
+    right: -50px;
+}
+
+.fas.fa-arrow-left.slick-arrow.slick-arrow {
+    left: -50px;
+}
+
+.mm-learn-more {
+    background: #21418e;
+    display: inline-block;
+    padding: 12px 25px;
+    line-height: 16px;
+    transition: 0.2s linear;
+    a {
+        color: white;
+    }
+    &:hover {
+        background-color: white;
+    }
+    &:hover a {
+        color: $secondary-blue;
+    }
+}
+
+.mnst-view-down {
+    a {
+        i {
+            &:hover {
+                color: $secondary-blue;
+            }
+        }
+    }
+}
+
+.ms-title {
+    h5 {
+        a {
+            &:hover {
+                color: $secondary-blue;
+            }
+        }
+    }
+}
+
+// .main-banner .slick-dots li button {
+//     font-size: 0;
+//     line-height: 0;
+//     display: block;
+//     width: 12px;
+//     height: 12px;
+//     padding: 1px;
+//     cursor: pointer;
+//     border-radius: 8px;
+//     border: none;
+//     outline: none;
+//     margin-right: 10px;
+// }
+// .slick-dots .slick-active button {
+//     background: #e94e1a !important;
+// }
+// .main-banner .slick-dots {
+//     position: absolute;
+//     bottom: 20px;
+//     right: 10%;
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: center;
+//     width: 100%;
+//     padding: 0;
+//     margin: 0;
+//     list-style: none;
+//     text-align: center;
+// }
+.main-banner {
+    position: relative;
+    overflow: hidden;
+    .slick-dots {
+        position: absolute;
+        bottom: 20px;
+        right: -45%;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .slick-dots li button::before {
+        font-size: 0;
+    }
+    li.slick-active button {
+        background: #ffc40e !important;
+    }
+    .slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 12px;
+        height: 12px;
+        padding: 1px;
+        cursor: pointer;
+        color: white;
+        border: 1px solid;
+        border-radius: 8px;
+        outline: none;
+        background: white;
+    }
+    .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 10px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
     }
 }

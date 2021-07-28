@@ -14,7 +14,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 j-c-c">
+                <div class="col-lg-4 col-md-4 j-c-c dispblock">
                     <div class="quick-links">
                         <div class="footer-title">
                             <h3>Quick Links</h3>
@@ -27,7 +27,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 d-f-e">
+                <div class="col-lg-4 col-md-4 d-f-e dispblock">
                     <div class="quick-links">
                         <div class="footer-title">
                             <h3>Contact Us</h3>

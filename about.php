@@ -17,35 +17,52 @@
 
 <section class="inner-about section-padding">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="iac-img">
-                    <img src="./images/dummy-us.jpg" alt="">
+
+
+        <div class="wrapingimage">
+            <div class="im-cheif">
+                <div class="im-img">
+                    <img src="./images/chief.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-7">
-                <div class="ia-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, tempora. Perspiciatis quo
-                        voluptatibus eius, blanditiis minima impedit dolorum vero, similique eligendi, inventore totam
-                        libero pariatur nam quaerat ducimus hic ea.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Quo, tempora. Perspiciatis quo
-                        voluptatibus eius, blanditiis minima impedit dolorum vero, similique eligendi, inventore totam
-                        libero pariatur nam quaerat ducimus hic ea.Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Quo, tempora. Perspiciatis quo
-                        voluptatibus eius, blanditiis minima impedit dolorum vero, similique eligendi, inventore totam
-                        libero pariatur nam quaerat ducimus hic ea.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tempore neque quaerat, nam
-                        tenetur facere alias esse fuga quidem ad vitae, blanditiis numquam molestias saepe ratione
-                        aspernatur ipsum enim consequuntur.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Nulla tempore neque quaerat, nam tenetur facere alias esse fuga quidem ad vitae, blanditiis
-                        numquam molestias saepe ratione aspernatur ipsum enim consequuntur.Lorem ipsum dolor sit amet,
-                    </p>
-                </div>
+            <div class="im-detail mt-3 text-center">
+                <h6>Mr.Naive Shrestha</h6>
+                <span>Chief Librarian</span>
             </div>
         </div>
 
-        <!-- <div class="ia-board-member">
+        <div class="im-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, tempora. Perspiciatis quo
+                voluptatibus eius, blanditiis minima impedit dolorum vero, similique eligendi, inventore totam
+                libero pariatur nam quaerat ducimus hic ea.Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Quo, tempora. Perspiciatis quo
+                voluptatibus eius, blanditiis minima impedit dolorum vero, similique eligendi, inventore totam
+                libero pariatur nam quaerat ducimus hic ea.Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Quo, tempora. Perspiciatis quo
+                voluptatibus eius, blanditiis minima impedit dolorum vero, similique eligendi, inventore totam
+                libero pariatur nam quaerat ducimus hic ea.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tempore neque quaerat, nam
+                tenetur facere alias esse fuga quidem ad vitae, blanditiis numquam molestias saepe ratione
+                aspernatur ipsum enim consequuntur.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nulla tempore neque quaerat, nam tenetur facere alias esse fuga quidem ad vitae, blanditiis
+                numquam molestias saepe ratione aspernatur ipsum enim consequuntur.Lorem ipsum dolor sit amet,
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tempore neque quaerat, nam
+                tenetur facere alias esse fuga quidem ad vitae, blanditiis numquam molestias saepe ratione
+                aspernatur ipsum enim consequuntur.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nulla tempore neque quaerat, nam tenetur facere alias esse fuga quidem ad vitae, blanditiis
+                numquam molestias saepe ratione aspernatur ipsum enim consequuntur.Lorem ipsum dolor sit amet,
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tempore neque quaerat, nam
+                tenetur facere alias esse fuga quidem ad vitae, blanditiis numquam molestias saepe ratione
+                aspernatur ipsum enim consequuntur.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nulla tempore neque quaerat, nam tenetur facere alias esse fuga quidem ad vitae, blanditiis
+                numquam molestias saepe ratione aspernatur ipsum enim consequuntur.Lorem ipsum dolor sit amet,
+            </p>
+        </div>
+
+    </div>
+
+    <!-- <div class="ia-board-member">
             <div class="sec-title text-center section-padding">
                 <h2>BOARD MEMBERS</h2>
             </div>
@@ -141,7 +158,7 @@
                 </div>
             </div>
         </div> -->
-    </div>
+
 </section>
 
 <?php include 'footer.php' ?>

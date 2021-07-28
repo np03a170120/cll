@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/jquery.fancybox.css" media="screen">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -51,19 +52,19 @@
         <div class="header-mid">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 d-f-a">
+                    <div class="col-lg-4 col-4 col-md-4 col-sm-4 d-f-a">
                         <div class="hm-logo ">
                             <a href="index.php">
                                 <img src="./images/coat-of-arms.png" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 j-c-c">
+                    <div class="col-lg-4 col-8 col-md-4 col-sm-4 j-c-c">
                         <div class="hm-title">
                             <img src="./images/logo.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
                         <div class="hm-flag">
                             <img src="./images/flag.gif" alt="">
                         </div>

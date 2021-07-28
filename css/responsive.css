@@ -1,0 +1,158 @@
+@media (max-width: 575.98px) {
+    body p {
+        font-size: 13px;
+    }
+    .sec-title h3 {
+        font-size: 20px;
+    }
+    .header-top {
+        display: none;
+    }
+    .header-mid {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .hm-flag {
+        text-align: right;
+        display: none;
+    }
+    .hm-logo img {
+        height: 70px;
+        width: 80px;
+    }
+    .ms-content .btn.btn-primary.mb-2 span {
+        display: none;
+    }
+    .sec-title {
+        text-align: center;
+    }
+    .view-all {
+        text-align: center !important;
+    }
+    .header-bot .navbar-nav.navbar-center {
+        position: relative;
+    }
+    .header-bot .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+    }
+    .btn-group,
+    .btn-group-vertical {
+        display: inline-block;
+    }
+    #dLabel {
+        display: inline-block;
+    }
+    .dropdown-menu {
+        background-color: #162f6c;
+    }
+    .header-bot .navbar {
+        padding: 8px;
+        z-index: 999;
+    }
+    .navbar-light .navbar-toggler {
+        background: white;
+        border-radius: 0;
+    }
+    .main-banner-single {
+        height: 40vh;
+    }
+    .mbs-text h4 {
+        font-size: 13px;
+    }
+    .mbs-text p {
+        font-size: 10px;
+        margin-top: 0;
+    }
+    .nopad {
+        padding: 0;
+    }
+    .main-search {
+        padding: 30px 18px;
+    }
+    .ms-content .form-control {
+        font-size: 10px;
+        padding: 12px;
+    }
+    .sec-title h2 {
+        font-size: 20px;
+    }
+    .ma-content p {
+        text-align: justify;
+        line-height: 25px;
+    }
+    .sec-title-small h5 {
+        font-size: 13px;
+    }
+    .main-message .mm-msg p {
+        font-size: 10px;
+    }
+    .chief-name h5 {
+        font-size: 12px;
+    }
+    .icon-service {
+        box-shadow: none;
+    }
+    .nav-tabs .nav-link {
+        background: #de1d3c;
+    }
+    .nav-tabs {
+        background: none;
+    }
+    .ms-title h5 a {
+        font-size: 12px;
+    }
+    .nav-tabs {
+        font-size: 13px;
+    }
+    .mrl-links li {
+        margin-top: 3px;
+    }
+    .dispblock {
+        display: block;
+    }
+    .quick-links {
+        margin-top: 30px;
+    }
+    .footer-main {
+        padding: 40px 0;
+    }
+    .ft-left {
+        font-size: 8px;
+    }
+    .footer-title h3 {
+        font-size: 18px;
+    }
+    .main-resources .mrl-links a {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .main-resources .mrl-links li::before {
+        top: 5%;
+        left: 5%;
+        width: 10%;
+    }
+    .main-resources .mrl-links a {
+        font-size: 11px;
+        margin-left: 28px;
+    }
+    .inner-breadcrumb .sec-title-breadcrumb h3 {
+        color: white;
+        font-size: 30px;
+    }
+    .ic-details {
+        border: 1px solid #c9c9c9;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        padding: 24px 16px;
+        text-align: justify;
+    }
+    .ic-form .form-control {
+        border-radius: 0;
+        margin-top: 6px;
+    }
+    .form-control {
+        font-size: 12px;
+    }
+}

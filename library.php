@@ -19,16 +19,16 @@
         <div class="ms-content">
             <form>
                 <div class="row">
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-3 nopad">
                         <input type="text" class="form-control" placeholder="Author">
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-4 nopad">
                         <input type="text" class="form-control" placeholder="Title">
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-3 nopad">
                         <input type="text" class="form-control" placeholder="Publisher">
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-2 nopad">
                         <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-search">
                                 <span>Search</span></i></button>
                     </div>
